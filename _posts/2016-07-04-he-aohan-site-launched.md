@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
+title: "He Aohan, LFC fan, Launches Site"
 date: 2016-07-04
 ---
 
