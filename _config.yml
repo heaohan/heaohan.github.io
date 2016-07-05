@@ -1,2 +1,3 @@
 name: He Aohan, Liverpool Fan
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
