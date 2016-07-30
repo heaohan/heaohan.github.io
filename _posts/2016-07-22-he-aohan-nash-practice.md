@@ -13,4 +13,10 @@ date: 2016-07-22
 7. runners高弧线
 8. hesitation + pull-up
 9. post-up跳投
-10. 
+10. 三步中央勾手
+11. 弧顶处左右pull-up jumper
+12. 弧顶左右spin shot
+13. 三分
+14. step back shot
+15. pick and roll jumper
+16. 三分
