@@ -31,4 +31,4 @@ date: 2016-07-26
 ###Bilinear interpolation
 
 >双线性插值常用于图像的放大和缩小，相比最邻近插值，马赛克效应会减小。相应的公式为
-![alt text](files/2016-08-02_100647.jpg)
+![alt text](/files/2016-08-02_100647.jpg)
