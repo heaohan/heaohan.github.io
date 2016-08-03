@@ -46,17 +46,21 @@ date: 2016-07-26
 对于复数域中多值方程的求解，有时候我们只需要principal value。例如对于
 ![alt text](https://heaohan.github.io/files/2016-08-03_141610.jpg)
 其解有无数个：
+
 ![alt text](https://heaohan.github.io/files/2016-08-03_141716.jpg)
+
 k=0的那一个是principal value：
+
 ![alt text](https://heaohan.github.io/files/2016-08-03_142830.jpg)
 
-###Complex argument
-复幅角
+###Complex argument 复幅角
 
 The principal value of complex number argument measured in radians can be defined as:
+
 - value in the range [0, 2pi]
 - values in the range (-pi, pi]
 
 To compute these values one can use functions:
+
 - atan2 with principal value in the range (-π, π]
 - atan with principal value in the range (-π/2, π/2]
