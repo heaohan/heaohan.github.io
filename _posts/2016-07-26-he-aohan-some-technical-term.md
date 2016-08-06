@@ -64,3 +64,11 @@ To compute these values one can use functions:
 
 - atan2 with principal value in the range (-π, π]
 - atan with principal value in the range (-π/2, π/2]
+
+###damping coefficients
+
+>阻尼系数
+
+###modal analysis
+
+>模态分析
