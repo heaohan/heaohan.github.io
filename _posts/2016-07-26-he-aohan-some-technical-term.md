@@ -76,3 +76,6 @@ To compute these values one can use functions:
 ###cartesian coordinate system
 
 >笛卡尔坐标系
+
+###thr
+threshold的缩写
