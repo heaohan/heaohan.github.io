@@ -1,5 +1,6 @@
 body {
-    margin: auto 60px auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
 }
 nav ul, footer ul {
@@ -10,7 +11,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: auto;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;
@@ -34,7 +35,7 @@ footer {
 }
 
 ul.posts { 
-    margin: auto 60px auto; 
+    margin: 20px 60px auto; 
     font-size: 1.2em;
 }
 
