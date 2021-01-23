@@ -20,7 +20,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -34,7 +34,7 @@ footer {
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: auto 60px auto; 
     font-size: 1.2em;
 }
 
