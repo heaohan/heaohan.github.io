@@ -1,0 +1,361 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin-Regular} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+\usepackage{fullpage}
+\setlength{\textheight}{9.9in} %9.5
+%\addtolength{\voffset}{-0.5cm}
+\addtolength{\footskip}{-5cm}
+
+ %Adjust margins
+%\usepackage[a4paper, left=0.5in, right=0.5in, top=0.5in, bottom = 0.5in]{geometry}
+%\addtolength{\oddsidemargin}{-0.5in} %-0.375in
+%\addtolength{\evensidemargin}{0.5in}
+%\addtolength{\textwidth}{0.5in}
+%\addtolength{\topmargin}{-.5in} %.375
+%\addtolength{\textheight}{0.75in}
+
+\usepackage[shortlabels]{enumitem}
+%\setlist[enumerate]{nosep}
+%\setenumerate[1]{itemsep=0pt,partopsep=0pt,parsep=2pt,topsep=0pt}
+%\setitemize[1]{itemsep=2.55pt,partopsep=0pt,parsep=3pt,topsep=0pt}
+%\setdescription{itemsep=2.55pt,partopsep=0pt,parsep=3pt,topsep=0pt}
+
+\usepackage{hyperref} % Required for adding links	 and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{2pt}{2pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\huge He \huge Aohan}\bigskip\par} % Your name
+\hrule \vskip 0.5mm \hrule
+%\name{Aohan He\\[12pt]}
+\small{Canberra, Singapore, 767961 \hspace{1.6cm} Email:\href{mailto:heaohan@gmail.com}{heaohan@gmail.com}\hspace{1.6cm}  Phone: +65 84635846}
+
+%\section{Personal Data}
+%
+%\begin{tabular}{rl}
+%\textsc{Place and Date of Birth:} & China  | 28 September 1993 \\
+%\textsc{Address:} & NO.37, Xueyuan Road, Haidian, Beijing, China \\
+%\textsc{Phone:} & +86 15810513680\\
+%\textsc{email:} & \href{mailto:heaohan@gmail.com}{heaohan@gmail.com}
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+%\begin{tabular}{rl}	
+%\textsc{Sep 2011-Current} & \textsc{Department of Measurement Control and Information Technology(MCIT)}, \textbf{Beihang University (BUAA)} \\
+%%textsc{                } & \textsc{and Information Technology}, \textbf{Beihang University (BUAA)}\\
+%\textsc{                } & \normalsize \textbf{GPA}: \textbf{ 3.85/4.00} \hspace{1cm}  \normalsize \textbf{Major GPA}:  \textbf{ 3.90/4.00} \hspace{1cm}  \normalsize \textbf{Rank}: \textbf{1/170 }\\
+%%& \hyperlink{grds}{\hfill | \footnotesize Detailed List of Core Curriculum Grades}\\
+%
+%%\textsc{Sep 2008-Jul 2011} &\  \normalsize\textbf{The High School atttached to Hunan Normal university}\\
+%
+%\end{tabular}
+
+\begin{description}
+\item[\textbf{ Jan 2016-April 2020}] PhD, Department of Mechanical Engineering, \textbf{National University of Singapore}
+\item[\textbf{ Sept 2011-June 2015}] Bachelor, Department of Measurement Control and Information Technology, \textbf{Beihang University}
+ % \quad \normalsize \textbf{GPA}: \textbf{ 89.92/100 (3.85/4.00)} \hspace*{1cm}  \normalsize \textbf{Major GPA}:  \textbf{ 91.60/100 (3.90/4.00)} \hspace*{1cm}  \normalsize \textbf{Rank}: \textbf{2/170 }
+\end{description}
+
+%\begin{itemize} [leftmargin=0cm]
+%	\item[\textbf{ Jan 2016-April 2020}] PhD, Department of Mechanical Engineering, \textbf{National University of Singapore}
+%	\item[\textbf{ Sept 2011-June 2015}] Bachelor, Department of Measurement Control and Information Technology, \textbf{Beihang University}
+%\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+\section{Awards}
+\begin{description}
+	\setlength\itemsep{-0.15em}
+	\item Research Scholarship, NUS (2016 - 2020)
+	\item National Scholarship of China (2013)
+	\item First-prize Scholarship of Academic Performance of Beihang University (2012, 2013, 2014)
+\end{description}
+
+%\section{Research interests}
+%\begin{description}
+%	\item{\textbf{Phase retrieval techniques for surface, displacement and strain measurement by optical coherent methods}: the fringe patterns obtained by optical coherent methods, including Twyman-Green interferometry, digital speckle pattern interferometry, shearography, etc., are processed by proposed phase retrieval techniques to obtain the phase, which is related to the measuring quantities, such as surface curvature of optical components, displacement, and strain. Other fringe analysis techniques, e.g., optimization, filtering and normalization, fringe direction estimation, and phase unwrapping, are also included. Besides, the CUDA based GPU acceleration for the phase retrieval techniques is also investigated.}
+%	%\item{\textbf{Computational imaging}: transport equation of intensity; single pixel imaging; diffraction tomography.}
+%	\item{\textbf{Optical encryption}: design and attack on optical image cryptosystem; calibration and alignment of spatial light modulator.}
+%\end{description}
+
+\section{Experience}
+%
+%%\begin{tabular}{r|p{16cm}}
+%%\textsc{Jul 2014} &Industrial Practice at \textsc{Baocheng Avionics Ltd.}, Shanxi \\
+%% %\multicolumn{2}{c}{} \\
+%%
+%%%------------------------------------------------
+%%
+%%\textsc{Jul 2013} & Summer Intern at \textsc{Sohu Inc.}, Beijing \emph{}\\
+%%& \footnotesize{A project for the 1\textsuperscript{st} China Smart Device Game. }\\
+%%%\multicolumn{2}{c}{} \\
+%%
+%%%------------------------------------------------
+\begin{description} [leftmargin=0.3cm]
+\item [Mar 2022-Current] \textbf{Senior Engineer} at Seagate Singapore International Headquarters Pte. Ltd. The role involves working within a multidisciplinary team to carry out machine vision development for assembly equipment.
+	
+\item [Feb 2020-Mar 2022] \textbf{Software Engineer} at Semiconductor Technologies \& Instruments Pte Ltd. The role involves working within a multidisciplinary team to carry out image processing / computer vision algorithm development for automatic wafer inspection equipment. Take charge of modules such as Wafer Edge Defect Inspection, 3D Inspection using Laser / Confocal Microscopy, and Deep Learning Inspection using CognexVisionPro.
+
+\item [Jan 2016-Feb 2020] \textbf{PhD Candidate} at ME Department, NUS. Research interests include Phase retrieval Techniques for Surface, Displacement and Strain Measurement by Optical Coherent Methods and Optical Encryption. Experienced in C++ as using CUDA based GPU acceleration on research; experienced in Building Optics Experiment Platforms related to Laser Interference and Spatial Light Modulator.
+
+\item [Jan 2016-Jan 2019] \textbf{Teaching Assistant} at NUS for modules including Mechanics of Machines, Engineering Principles and Practice, and Mechanics of Materials.
+
+\item [Aug 2015-Nov 2015] \textbf{Assistant Manager} at Head Aerospace Inc., Beijing. File translation and website maintenance.
+
+\item [Feb 2015-June 2015] \textbf{Research student} at Precision Opto-mechatronics Technology Lab of Beihang University. Participate in the lab project: On-train Dynamic Rail Wear Measurement System.
+
+%\item [\textbf{Sep 2014-Jan 2015}] \textbf{Teaching assistant} for the module: photoelectric detective techniques and system.
+%\begin{itemize}
+%\setlength{\itemsep}{0pt}
+%\setlength{\parsep}{0pt}
+%\setlength{\parskip}{0pt}
+%\item (Summer 2014) Participate in the project of On-train Dynamic Rail Wear Measurement System\\Industrial Practice at \textsc{Baocheng Avionics Ltd.}, Shanxi
+%\item [July 2013] \textbf{Intern} at Sohu Inc., Beijing. Participate in a project for the 1\textsuperscript{st} China Smart Device Game.
+%%\item Participate in the Calibration for Multiple Line Structured Light Vision Sensors
+%
+%%\item Participate in the project of Dynamic Three-dimensional Visual Measurement of the Surface of Large-scale Component in Complex Environment
+%%\item Implemented a sequence of robustness tests for the system
+%\end{itemize}
+%\item [\textbf{July 2012}] \textbf{Volunteer teacher} of the "Starlight-Piloting" volunteer team: teaching and volunteer work at Riyue primary and secondary school, Huangyuan County, Qinghai Province (Northwest China)
+\end{description}
+%
+%
+%%----------------------------------------------------------------------------------------
+%%	SCHOLARSHIPS AND ADDITIONAL INFO
+%%----------------------------------------------------------------------------------------
+%
+%\section{Scholarships and Certificates}
+%
+%\begin{itemize}
+%\item {TOEFL\textregistered}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}: 103 \hspace{1.5cm}       {GRE\textregistered}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}: 324 (\textsc{q:170; v:154; aw:3})
+%\item National Scholarship of China (2013)\\
+%(The highest scholarship for the undergraduate in Beihang Univ., offered by the Ministry of Education of China, 50,000 scholarship winners of 25,000,000 college students in China)
+%\item First-prize Scholarship of Academic Performance of Beihang University (2012, 2013, 2014)
+%    (10 each grade in MCIT depart., Beihang Univ.)
+%\item National Computer Science Test Certificate (Band 2)(C language)
+%
+%\end{itemize}
+%
+%%\begin{tabular}{rl}
+%%\textsc 2014 & {\textsc{TOFEL}\textregistered}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}: 90 {\textsc{GRE}\textregistered}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}: 324 (\textsc{ q:170; v:154; aw:3})\\
+%% \textsc      &First-prize Scholarship of Academic Performance of Beihang University \\
+%%%96\textsuperscript{th} percentile
+%%\textsc 2013 &National Scholarship of China (3 for the Junior of our Institute, Beihang Univ.)  \\
+%%\textsc      &First-prize Scholarship of Academic Performance of Beihang University \\
+%%\textsc 2012 &First-prize Scholarship of Academic Performance of Beihang University \\
+%%&National Computer Science Test Certificate (Band 2)\\
+%
+%%&\\
+%
+%
+%%\end{tabular}
+%
+%%----------------------------------------------------------------------------------------
+%%	HONORS
+%%----------------------------------------------------------------------------------------
+%
+%\section{Honors}
+%
+%\begin{itemize}
+%
+%\item \textsc  Outstanding Student of Beihang University (2012, 2013, 2014)\\
+%(Students obtaining this for three times can get the graduate school admission qualification of Beihang University)
+%\item \textsc      Merit Student of Beihang University (2012, 2013, 2014)
+%    (14 each grade in MCIT depart., Beihang Univ.)
+%\item\textsc  Honorable Mention Award of Mathematical Contest in Modeling(MCM) (2013)
+%    (Held annually by the Consortium for Mathematics and Its Application(COMAP), the most influential Mathematical Contest in Modeling around the world)
+%\item\textsc First Prize in the 22nd "Feng Ru Cup" Competition of Innovation (2012)\\
+%\textsc     (Annual competition of student scientific innovation works in Beihang Univ.)
+%
+%\end{itemize}
+%%\begin{tabular}{rl}
+%%\textsc  2013    &Outstanding Student of Beihang University\\
+%%\textsc      &Merit Student of Beihang University\\
+%%\textsc  &Honorable Mention Award Of Mathematical Contest In Modeling\\
+%%
+%% 2012&Outstanding Student of Beihang University\\
+%%\textsc      &Merit Student of Beihang University\\
+%%\textsc &First Prize in the 22nd "Feng Ru Cup" Competition of Innovation \\
+%%\textsc      &(Given to students of Beihang University who are full of creative ideas)\\
+%
+%%\textsc 2009 &Second-prize of Provincial Senior High School's Biology Competition of Hunan\\
+%%\textsc      &Second-prize of Provincial Senior High School's English Competition of Hunan\\
+%%%&\\
+%%%&\\
+%%\end{tabular}
+%
+%
+%%----------------------------------------------------------------------------------------
+%%	SKILLS
+%%----------------------------------------------------------------------------------------
+%
+
+%\newpage
+%\section{Skills}
+%%%\begin{tabular}{rl}
+%%%Language:& Fluent English, Native Mandarin\\
+%%Programming:& \textsc{Linux}(ubuntu,Redhat), C, Matlab, Verilog, VHDL, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+%%Software:& Solidworks, Modelsim, Multisim, OpenCV, \textsc{Visual Studio} \\
+%%%Documentation:&{\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}, MS Office\\
+%%\end{tabular}
+%
+%\begin{description}
+%%\item[\textbf{ Embedded System}] \hspace{0.1cm}Use ADS and Keil to develop the program controlling GPIO and UART of ARM experiment box; configuration and compilation of embedded Linux kernel; cross-compile and download program to embedded system
+%%
+%%\item[\textbf{ Verilog and VHDL}]\hspace{0.1cm} Use Modelsim  to design and simulate driver circuit of CCD (based on Verilog); use Quartus to design the state machine of stepping motor and traffic light system
+%\item[\textbf{Computer vision}]As undergraduate, learn the basic knowledge from related modules: Digital Image Processing and Photoelectric Detective Techniques and System; in the undergraduate final year project, using active computer vision to measure the inner diameter of wheel (including camera calibration, structured light calibration, and laser stripe extraction, etc.). As graduate, further learn the related knowledge from modules: Machine Vision and Optical Techniques in Experimental Stress Analysis; use the related knowledge in research, e.g., fringe direction estimation, and residual wavefront correction of spatial light modulator.
+%
+%\item[\textbf{Machine learning}]As graduate, learn the related knowledge from module: Neural Networks, Support Vector Machines and Reinforcement Learning. Attend related seminars about deep learning and transfer learning. Plan to use machine learning in research.
+%
+%\item[\textbf{C++}]As undergraduate, learn the basic knowledge from related modules: C Language and Fundamentals of Software Engineering. As graduate, use C++ in the research, e.g., implementation of GPU acceleration of phase retrieval techniques.
+%
+%\item[\textbf{MATLAB}] Learn the basic knowledge from modules and projects as undergraduate. Used frequently in research for data processing and simulation.
+%%
+%%\item[\textbf{LabVIEW}]\hspace{0.1cm}  Develop LabVIEW program for Chlorophyll content detection
+%%
+%
+%%
+%
+%%
+%%%\item[\textbf{Mathematica}]\hspace{0.1cm} Simulation of the electromagnetic field
+%%
+%%\item[\textbf{Multisim}]\hspace{0.1cm} Analog Circuit Design, Simulation and Performance Evaluation based on Multisim
+%%
+%%\item[\LaTeXe]\hspace{0.1cm}Writing Paper for MCM
+%%
+%\end{description}
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+%\section{Interests and Activities}
+%
+%Reading, Programming, Football, Basketball, Running
+
+%----------------------------------------------------------------------------------------
+
+%\newpage
+%
+%%----------------------------------------------------------------------------------------
+%%	GRADE TABLES
+%%----------------------------------------------------------------------------------------
+%
+%\par{\centering\Large \hypertarget{grds}{Bachelor of Engineering in \textsc{ Measuring \& Control Technology and Instrumentations}}\par}\large{\centering core curriculum Grades\par}\normalsize
+%
+%\begin{center}
+%\begin{tabular}{lcc}
+%\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade}&\textsc{Credit Hrs}\\ \hline
+%C language programming & 85 & 2.5\\
+%Foundation of Software Engineering & 87 & 2\\
+%Microcomputer Principles and Interface Technology & 88 & 2.5\\
+%Foundation of Embedded System Design & 93 & 2.5\\
+%Digital image processing & 89 & 3\\
+%Advanced Mathematics(1) & 100 & 6\\
+%Advanced Mathematics(2) & 97 & 5\\
+%Statistics and Probability Theory & 96 & 4\\
+%Functions of Complex Variables \& Integral Transformations  & 99 & 2.5\\
+%Engineering Optics(1) & 95 & 3\\
+%Engineering Optics(2) & 92 & 3\\
+%Signal Analysis and Processing & 97 & 3\\
+%Principles of Automatic Control(1) & 98 & 3.5\\
+%Principles of Automatic Control(2) & 95 & 6\\
+%Circuit Analysis & 94 & 3\\
+%Fundamentals of Digital Electronic Technology  & 97 & 2.5\\
+%Fundamentals of Analogue Electronic Technique & 91 & 3\\
+%engineering mechanics & 97 & 3.5\\
+%computer measurement and control system & 85 & 3\\
+%Photoelectric testing technology and systems & 94 & 3\\ 		
+%Optoelectronic Technology	 & 86 & 3\\
+%\cline{1-2}
+%
+%
+%\textsc{Average }&\textbf{93.10}&\\
+%
+%
+%\end{tabular}
+%\end{center}
+%\bigskip
+%\hrule
+%\bigskip
+
+\section{Publications}
+%[1] \textbf{A. He} and C. Quan, "Wavefront correction for spatial nonuniformity of the liquid crystal on silicon based spatial light modulator",\textbf{ Optics and Lasers in Engineering}, vol. 121, pp. 377-388, 2019.\\[0pt]
+%[2] \textbf{A. He} and C. Quan, "An improved principal component analysis based region matching method for fringe direction estimation," \textbf{Optics Communications}, vol. 413, pp. 87-102, 2018.
+%[3] \textbf{A. He}, B. Deepan, and C. Quan, "Simplified paraboloid phase model-based phase tracker for demodulation of a single complex fringe," \textbf{Applied Optics}, vol. 56, pp. 7217-7224, 2017.\\
+%[4] Y. Xiong, \textbf{A. He}, and C. Quan, "Specific attack and security enhancement to optical image cryptosystem based on two random masks and interference," \textbf{Optics and Lasers in Engineering}, vol. 107, pp. 142-148, 2018.\\
+%[5] Y. Xiong, \textbf{A. He}, and C. Quan, "Security analysis of a double-image encryption technique based on an asymmetric algorithm," \textbf{JOSA A}, vol. 35, pp. 320-326, 2018.}
+%\item[] {[6] Y. Xiong, \textbf{A. He}, and C. Quan, "Hybrid attack on an optical cryptosystem based on phase-truncated Fourier transforms and a random amplitude mask," \textbf{Applied optics}, vol. 57, pp. 6010-6016, 2018.\\
+%[7] Y. Xiong, \textbf{A. He}, and C. Quan, "Cryptanalysis of an optical cryptosystem based on phase-truncated Fourier transform and nonlinear operations," \textbf{Optics Communications}, vol. 428, pp. 120-130, 2018.\\
+%[8] \textbf{A. He}, and C. Quan, "Paraboloid phase model based simplified phase tracker for demodulation of a single fringe interferogram", International Conference on Optics in Precision Engineering and Nanotechnology (icOPEN2017), April 2017, Singapore.
+\begin{itemize} [leftmargin=0cm]
+	\setlength\itemsep{-0.15em}
+	%\item[] {[1] \textbf{A. He} and C. Quan, "Phase retrieval by GPU-based swarm intelligence algorithms on SLM generated interferograms", (Submitted). }
+	\item[] {[1] \textbf{A. He} and C. Quan, "Wavefront correction for spatial nonuniformity of the liquid crystal on silicon based spatial light modulator",\textbf{ Optics and Lasers in Engineering}, vol. 121, pp. 377-388, 2019. }
+	\item[] {[2] \textbf{A. He} and C. Quan, "An improved principal component analysis based region matching method for fringe direction estimation," \textbf{Optics Communications}, vol. 413, pp. 87-102, 2018.}
+	\item[] {[3] \textbf{A. He}, B. Deepan, and C. Quan, "Simplified paraboloid phase model-based phase tracker for demodulation of a single complex fringe," \textbf{Applied Optics}, vol. 56, pp. 7217-7224, 2017.}
+	\item[] {[4] Y. Xiong, \textbf{A. He}, and C. Quan, "Security analysis of a double-image encryption technique based on an asymmetric algorithm," \textbf{JOSA A}, vol. 35, pp. 320-326, 2018.}
+%	\item[] {[4] Y. Xiong, \textbf{A. He}, and C. Quan, "Security analysis and enhancement of a cryptosystem based on phase truncation and a designed amplitude modulator," \textbf{Applied optics}, vol. 58, pp. 695-703, 2019.}
+%	\item[] {[5] Y. Xiong, \textbf{A. He}, and C. Quan, "Cryptoanalysis on optical image encryption systems based on the vector decomposition technique in the Fourier domain," \textbf{Applied optics},  vol. 58, pp. 3301-3309, 2019.}
+%	\item[] {[6] Y. Xiong, \textbf{A. He}, and C. Quan, "Specific attack and security enhancement to optical image cryptosystem based on two random masks and interference," \textbf{Optics and Lasers in Engineering}, vol. 107, pp. 142-148, 2018.}
+%	\item[] {[7] Y. Xiong, \textbf{A. He}, and C. Quan, "Security analysis of a double-image encryption technique based on an asymmetric algorithm," \textbf{JOSA A}, vol. 35, pp. 320-326, 2018.}
+%	\item[] {[8] Y. Xiong, \textbf{A. He}, and C. Quan, "Hybrid attack on an optical cryptosystem based on phase-truncated Fourier transforms and a random amplitude mask," \textbf{Applied optics}, vol. 57, pp. 6010-6016, 2018.}
+%	\item[] {[9] Y. Xiong, \textbf{A. He}, and C. Quan, "Cryptanalysis of an optical cryptosystem based on phase-truncated Fourier transform and nonlinear operations," \textbf{Optics Communications}, vol. 428, pp. 120-130, 2018.}
+	%	\item[] {[8] \textbf{A. He}, and C. Quan, "Paraboloid phase model based simplified phase tracker for demodulation of a single fringe interferogram", International Conference on Optics in Precision Engineering and Nanotechnology (icOPEN2017), April 2017, Singapore.}
+\end{itemize}
+
+
+\end{document}
