@@ -4,7 +4,7 @@ title: "Certificates"
 date: 2023-06-05
 ---
 
-Here are some Certificates I obtained recently.😄
+Here are some certificates I obtained recently.😄
 
 ## Machine Learning
 
@@ -41,7 +41,7 @@ Here are some Certificates I obtained recently.😄
 - [Reinforcement Learning Foundations](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Reinforcement%20Learning%20Foundations.pdf)
 - [TensorFlow Neural Networks and Working with Tables](https://heaohan.github.io/files/certificate/CertificateOfCompletion_TensorFlow%20Neural%20Networks%20and%20Working%20with%20Tables.pdf)
 - [TensorFlow Working with NLP](https://heaohan.github.io/files/certificate/CertificateOfCompletion_TensorFlow%20Working%20with%20NLP.pdf)
-- [Training Neural Networks in C#](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Training%20Neural%20Networks%20in%20C.pdf)
+- [Training Neural Networks in C++](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Training%20Neural%20Networks%20in%20C.pdf)
 - [Training Neural Networks in Python](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Training%20Neural%20Networks%20in%20Python.pdf)
 - [Transfer Learning for Images Using PyTorch Essential Training](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Transfer%20Learning%20for%20Images%20Using%20PyTorch%20Essential%20Training.pdf)
 - [Transformers Text Classification for NLP Using BERT](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Transformers%20Text%20Classification%20for%20NLP%20Using%20BERT.pdf)
@@ -79,11 +79,11 @@ Here are some Certificates I obtained recently.😄
 - [Async Programming in C#](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Async%20Programming%20in%20C.pdf)
 - [C# .NET Programming](https://heaohan.github.io/files/certificate/CertificateOfCompletion_C%20%20.NET%20Programming.pdf)
 - [C# Best Practices for Developers](https://heaohan.github.io/files/certificate/CertificateOfCompletion_C%20Best%20Practices%20for%20Developers.pdf)
-- [C# Delegates Events and Lambdas 2015](https://heaohan.github.io/files/certificate/CertificateOfCompletion_C%20Delegates%20Events%20and%20Lambdas%202015.pdf)
+- [C# Delegates Events and Lambdas](https://heaohan.github.io/files/certificate/CertificateOfCompletion_C%20Delegates%20Events%20and%20Lambdas%202015.pdf)
 - [C# Design Patterns Part 1](https://heaohan.github.io/files/certificate/CertificateOfCompletion_C%20Design%20Patterns%20Part%201.pdf)
 - [C# Design Patterns Part 2](https://heaohan.github.io/files/certificate/CertificateOfCompletion_C%20Design%20Patterns%20Part%202.pdf)
 - [C# Refactoring Tips and Tricks](https://heaohan.github.io/files/certificate/CertificateOfCompletion_C%20Refactoring%20Tips%20and%20Tricks.pdf)
-- [Fluent API Development in C](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Fluent%20API%20Development%20in%20C.pdf)
+- [Fluent API Development in C#](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Fluent%20API%20Development%20in%20C.pdf)
 - [Git Branches Merges and Remotes](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Git%20Branches%20Merges%20and%20Remotes.pdf)
 - [Git Essential Training The Basics](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Git%20Essential%20Training%20The%20Basics.pdf)
 - [Git Intermediate Techniques](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Git%20Intermediate%20Techniques.pdf)
@@ -95,5 +95,6 @@ Here are some Certificates I obtained recently.😄
 - [Threading in C#](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Threading%20in%20C.pdf)
 
 ## MVTEC
+
 - [MVTEC certificate attendance](https://heaohan.github.io/files/certificate/MVTEC%20certificate%20attendance%20-%20He%20Ao%20Han.pdf)
 - [MVTEC certificate attendance Deep Learning](https://heaohan.github.io/files/certificate/MVTEC%20certificate%20attendance%20Deep%20Learning%20-%20He%20Ao%20Han.pdf)
