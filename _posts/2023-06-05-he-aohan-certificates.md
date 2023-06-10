@@ -45,6 +45,7 @@ Here are some certificates I obtained recently.😄
 - [Training Neural Networks in Python](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Training%20Neural%20Networks%20in%20Python.pdf)
 - [Transfer Learning for Images Using PyTorch Essential Training](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Transfer%20Learning%20for%20Images%20Using%20PyTorch%20Essential%20Training.pdf)
 - [Transformers Text Classification for NLP Using BERT](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Transformers%20Text%20Classification%20for%20NLP%20Using%20BERT.pdf)
+- [Machine Learning with Python Decision Trees](https://heaohan.github.io/files/certificate/CertificateOfCompletion_Machine%20Learning%20with%20Python%20Decision%20Trees.pdf)
 
 ## Agile Methdologies
 
