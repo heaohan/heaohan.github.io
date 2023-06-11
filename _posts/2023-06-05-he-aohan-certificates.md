@@ -42,7 +42,7 @@ Here are some certificates I obtained recently.😄
 - [Reinforcement Learning Foundations](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Reinforcement%20Learning%20Foundations.pdf)
 - [TensorFlow Neural Networks and Working with Tables](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_TensorFlow%20Neural%20Networks%20and%20Working%20with%20Tables.pdf)
 - [TensorFlow Working with NLP](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_TensorFlow%20Working%20with%20NLP.pdf)
-- [Training Neural Networks in C](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Training%20Neural%20Networks%20in%20C.pdf)
+- [Training Neural Networks in C++](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Training%20Neural%20Networks%20in%20C++.pdf)
 - [Training Neural Networks in Python](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Training%20Neural%20Networks%20in%20Python.pdf)
 - [Transfer Learning for Images Using PyTorch Essential Training](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transfer%20Learning%20for%20Images%20Using%20PyTorch%20Essential%20Training.pdf)
 - [Transformers Text Classification for NLP Using BERT](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transformers%20Text%20Classification%20for%20NLP%20Using%20BERT.pdf)
