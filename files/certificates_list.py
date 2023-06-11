@@ -7,6 +7,7 @@ path = "./certificate/"
 
 from pathlib import Path
 results = list(Path(path).rglob("*.pdf"))
+prefix = Path(".").absolute().as_uri()
 
 print("Files and directories in '", path, "' :")
 
@@ -16,10 +17,11 @@ dir_list_md = []
 dir_list_parents = []
 for file in results:
     dir_list_parents.append(file.parent.as_posix())
-    new_file = file.as_posix()
-    new_file = new_file.replace(" ", "%20")
-    new_file = new_file.replace("\\", "/")
-    new_file = "https://heaohan.github.io/files/" + new_file
+    #file.root = "https://heaohan.github.io/files/"
+    new_file = file.absolute().as_uri()
+    #new_file = new_file.replace(" ", "%20")
+    new_file = new_file.removeprefix(prefix)
+    new_file = "https://heaohan.github.io/files" + new_file
     dir_list_web.append(new_file)
     new_file_name = file.name.removeprefix("CertificateOfCompletion_")
     new_file_name = new_file_name.removesuffix(".pdf")

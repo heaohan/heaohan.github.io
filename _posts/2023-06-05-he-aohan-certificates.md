@@ -42,7 +42,7 @@ Here are some certificates I obtained recently.😄
 - [Reinforcement Learning Foundations](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Reinforcement%20Learning%20Foundations.pdf)
 - [TensorFlow Neural Networks and Working with Tables](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_TensorFlow%20Neural%20Networks%20and%20Working%20with%20Tables.pdf)
 - [TensorFlow Working with NLP](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_TensorFlow%20Working%20with%20NLP.pdf)
-- [Training Neural Networks in C++](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Training%20Neural%20Networks%20in%20C++.pdf)
+- [Training Neural Networks in C++](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Training%20Neural%20Networks%20in%20C%2B%2B.pdf)
 - [Training Neural Networks in Python](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Training%20Neural%20Networks%20in%20Python.pdf)
 - [Transfer Learning for Images Using PyTorch Essential Training](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transfer%20Learning%20for%20Images%20Using%20PyTorch%20Essential%20Training.pdf)
 - [Transformers Text Classification for NLP Using BERT](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transformers%20Text%20Classification%20for%20NLP%20Using%20BERT.pdf)
@@ -76,20 +76,20 @@ Here are some certificates I obtained recently.😄
 
 ## C#
 
-- [Advanced Threading in C#](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_Advanced%20Threading%20in%20C#.pdf)
-- [Async Programming in C#](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_Async%20Programming%20in%20C#.pdf)
-- [C#  .NET Programming](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_C#%20%20.NET%20Programming.pdf)
-- [C# Best Practices for Developers](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_C#%20Best%20Practices%20for%20Developers.pdf)
-- [C# Delegates Events and Lambdas](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_C#%20Delegates%20Events%20and%20Lambdas.pdf)
-- [C# Design Patterns Part 1](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_C#%20Design%20Patterns%20Part%201.pdf)
-- [C# Design Patterns Part 2](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_C#%20Design%20Patterns%20Part%202.pdf)
-- [C# Refactoring Tips and Tricks](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_C#%20Refactoring%20Tips%20and%20Tricks.pdf)
-- [Fluent API Development in C#](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_Fluent%20API%20Development%20in%20C#.pdf)
-- [Learning SOLID Programming Principles](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_Learning%20SOLID%20Programming%20Principles.pdf)
-- [LINQ with C# Essential Training](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_LINQ%20with%20C#%20Essential%20Training.pdf)
-- [Object Oriented Programming with C#](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_Object%20Oriented%20Programming%20with%20C#.pdf)
-- [Ten Tips for the C# Developer](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_Ten%20Tips%20for%20the%20C#%20Developer.pdf)
-- [Threading in C#](https://heaohan.github.io/files/certificate/C#/CertificateOfCompletion_Threading%20in%20C#.pdf)
+- [Advanced Threading in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Advanced%20Threading%20in%20C%23.pdf)
+- [Async Programming in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Async%20Programming%20in%20C%23.pdf)
+- [C#  .NET Programming](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20%20.NET%20Programming.pdf)
+- [C# Best Practices for Developers](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Best%20Practices%20for%20Developers.pdf)
+- [C# Delegates Events and Lambdas](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Delegates%20Events%20and%20Lambdas.pdf)
+- [C# Design Patterns Part 1](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Design%20Patterns%20Part%201.pdf)
+- [C# Design Patterns Part 2](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Design%20Patterns%20Part%202.pdf)
+- [C# Refactoring Tips and Tricks](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Refactoring%20Tips%20and%20Tricks.pdf)
+- [Fluent API Development in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Fluent%20API%20Development%20in%20C%23.pdf)
+- [Learning SOLID Programming Principles](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Learning%20SOLID%20Programming%20Principles.pdf)
+- [LINQ with C# Essential Training](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_LINQ%20with%20C%23%20Essential%20Training.pdf)
+- [Object Oriented Programming with C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Object%20Oriented%20Programming%20with%20C%23.pdf)
+- [Ten Tips for the C# Developer](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Ten%20Tips%20for%20the%20C%23%20Developer.pdf)
+- [Threading in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Threading%20in%20C%23.pdf)
 
 ## Git
 
