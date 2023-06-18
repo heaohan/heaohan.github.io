@@ -31,7 +31,10 @@ Here are some certificates I obtained recently.😄
 - [HandsOn PyTorch Machine Learning](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_HandsOn%20PyTorch%20Machine%20Learning.pdf)
 - [Learning Amazon SageMaker](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Learning%20Amazon%20SageMaker.pdf)
 - [Machine Learning Foundations Linear Algebra](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20Foundations%20Linear%20Algebra.pdf)
+- [Machine Learning with Python Association Rules](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20with%20Python%20Association%20Rules.pdf)
 - [Machine Learning with Python Decision Trees](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20with%20Python%20Decision%20Trees.pdf)
+- [Machine Learning with Python kMeans Clustering](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20with%20Python%20kMeans%20Clustering.pdf)
+- [Machine Learning with Python Logistic Regression](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20with%20Python%20Logistic%20Regression.pdf)
 - [Machine Learning with ScikitLearn](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20with%20ScikitLearn.pdf)
 - [Neural Networks and Convolutional Neural Networks Essential Training](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Neural%20Networks%20and%20Convolutional%20Neural%20Networks%20Essential%20Training.pdf)
 - [NLP with Python for Machine Learning Essential Training](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_NLP%20with%20Python%20for%20Machine%20Learning%20Essential%20Training.pdf)
@@ -47,7 +50,7 @@ Here are some certificates I obtained recently.😄
 - [Transfer Learning for Images Using PyTorch Essential Training](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transfer%20Learning%20for%20Images%20Using%20PyTorch%20Essential%20Training.pdf)
 - [Transformers Text Classification for NLP Using BERT](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transformers%20Text%20Classification%20for%20NLP%20Using%20BERT.pdf)
 
-## Agile Methdologies
+## Agile Methodologies
 
 ### Learning Path
 
