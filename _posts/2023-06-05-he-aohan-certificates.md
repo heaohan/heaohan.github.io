@@ -11,6 +11,7 @@ Here are some certificates I obtained recently.😄
 ### Learning Path
 
 - [Getting Started with AI and Machine Learning](https://heaohan.github.io/files/certificate/Machine%20Learning/Learning%20Path/CertificateOfCompletion_Getting%20Started%20with%20AI%20and%20Machine%20Learning.pdf)
+- [Advance Your Skills as a Machine Learning Specialist](https://heaohan.github.io/files/certificate/Machine%20Learning/Learning%20Path/CertificateOfCompletion_Advance%20Your%20Skills%20as%20a%20Machine%20Learning%20Specialist.pdf)
 - [Advance Your Skills in AI and Machine Learning](https://heaohan.github.io/files/certificate/Machine%20Learning/Learning%20Path/CertificateOfCompletion_Advance%20Your%20Skills%20in%20AI%20and%20Machine%20Learning.pdf)
 - [Advance Your Skills in Deep Learning and Neural Networks](https://heaohan.github.io/files/certificate/Machine%20Learning/Learning%20Path/CertificateOfCompletion_Advance%20Your%20Skills%20in%20Deep%20Learning%20and%20Neural%20Networks.pdf)
 
@@ -30,6 +31,10 @@ Here are some certificates I obtained recently.😄
 - [Getting Started with Power BI](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Getting%20Started%20with%20Power%20BI.pdf)
 - [HandsOn PyTorch Machine Learning](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_HandsOn%20PyTorch%20Machine%20Learning.pdf)
 - [Learning Amazon SageMaker](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Learning%20Amazon%20SageMaker.pdf)
+- [Machine Learning and AI Foundations Causal Inference and Modeling](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20and%20AI%20Foundations%20Causal%20Inference%20and%20Modeling.pdf)
+- [Machine Learning and AI Foundations Decision Trees with KNIME](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20and%20AI%20Foundations%20Decision%20Trees%20with%20KNIME.pdf)
+- [Machine Learning and AI Foundations Prediction Causation and Statistical Inference](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20and%20AI%20Foundations%20Prediction%20Causation%20and%20Statistical%20Inference.pdf)
+- [Machine Learning and AI Foundations Producing Explainable AI XAI and Interpretable Machine Learning Solutions](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20and%20AI%20Foundations%20Producing%20Explainable%20AI%20XAI%20and%20Interpretable%20Machine%20Learning%20Solutions.pdf)
 - [Machine Learning Foundations Linear Algebra](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20Foundations%20Linear%20Algebra.pdf)
 - [Machine Learning with Python Association Rules](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20with%20Python%20Association%20Rules.pdf)
 - [Machine Learning with Python Decision Trees](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Machine%20Learning%20with%20Python%20Decision%20Trees.pdf)
