@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Continuous Learning as Software Engineer"
-date: 2025-04-23
+layout: page
+title: Continuous Learning
+subtitle: Always remember I want to be a better Software Engineer
 ---
+
 Here is an overview of my journey in Continuous Learning as a Software Engineer. 😄
 
 ## Machine Learning

@@ -1,38 +1,25 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-		</head>
-		<body>
-      			<div id="headimage">
-      				<img src="/files/liverpool.png" />
-      			</div> <!-- /#headimage -->
-      			
-      			<!-- Google analytics -->
-			{% include analytics.html %}
-			
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:heaohan@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/heaohan">github.com/heaohan</a></li>
-              <li><a href="https://heaohan.github.io/blog/atom.xml">RSS feed</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+---
+layout: base
+---
+
+<div class="intro-header"></div>
+
+<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  {% if page.before-content %}
+    <div class="before-content">
+      {% for file in page.before-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.after-content %}
+    <div class="after-content">
+      {% for file in page.after-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</main>
