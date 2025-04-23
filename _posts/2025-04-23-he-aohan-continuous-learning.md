@@ -1,12 +1,18 @@
 ---
 layout: post
-title: "Certificates"
-date: 2023-06-05
+title: "Continuous Learning as Software Engineer"
+date: 2025-04-23
 ---
-
-Here are some certificates I obtained recently.😄
+Here is an overview of my journey in Continuous Learning as a Software Engineer. 😄
 
 ## Machine Learning
+
+### Books
+
+- [Machine Learning with PyTorch and Scikit-Learn](https://www.goodreads.com/fa/book/show/60098440-machine-learning-with-pytorch-and-scikit-learn)
+- [Machine Learning System Design Interview](https://www.goodreads.com/en/book/show/120532868-machine-learning-system-design-interview)
+- [Generative AI System Design Interview](https://www.goodreads.com/book/show/221577013-generative-ai-system-design-interview)
+- [AI Engineering: Building Applications with Foundation Models](https://www.goodreads.com/book/show/216848047-ai-engineering)
 
 ### Learning Path
 
@@ -55,7 +61,29 @@ Here are some certificates I obtained recently.😄
 - [Transfer Learning for Images Using PyTorch Essential Training](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transfer%20Learning%20for%20Images%20Using%20PyTorch%20Essential%20Training.pdf)
 - [Transformers Text Classification for NLP Using BERT](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transformers%20Text%20Classification%20for%20NLP%20Using%20BERT.pdf)
 
+## System Design
+
+### Books
+
+- [System Design Interview – An insider's guide](https://www.goodreads.com/book/show/54109255-system-design-interview-an-insider-s-guide)
+- [System Design Interview – An Insider's Guide: Volume 2](https://www.goodreads.com/en/book/show/60631342-system-design-interview-an-insider-s-guide)
+- [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications)
+
+## Software Engineering
+
+### Books
+
+- [Head First Design Patterns](https://www.goodreads.com/book/show/121748469-head-first-design-patterns)
+- [Head First Software Development](https://www.goodreads.com/book/show/314063.Head_First_Software_Development)
+- [Head First Object-Oriented Analysis and Design](https://www.goodreads.com/en/book/show/179207.Head_First_Object_Oriented_Analysis_and_Design)
+- [Head First Software Architecture](https://www.goodreads.com/book/show/171671941-head-first-software-architecture)
+
+
 ## Agile Methodologies
+
+### Books
+
+- [Head First Agile](https://www.goodreads.com/book/show/30012890-head-first-agile)
 
 ### Learning Path
 
@@ -84,6 +112,11 @@ Here are some certificates I obtained recently.😄
 
 ## C#
 
+### Books
+
+- [Head First C#](https://www.goodreads.com/book/show/56211024-head-first-c)
+
+### Courses
 - [Advanced Threading in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Advanced%20Threading%20in%20C%23.pdf)
 - [Async Programming in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Async%20Programming%20in%20C%23.pdf)
 - [C#  .NET Programming](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20%20.NET%20Programming.pdf)
@@ -101,6 +134,12 @@ Here are some certificates I obtained recently.😄
 
 ## Git
 
+### Books
+
+- [Head First Git](https://www.goodreads.com/book/show/58230359-head-first-git)
+
+### Courses
+
 - [Git Branches Merges and Remotes](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Git%20Branches%20Merges%20and%20Remotes.pdf)
 - [Git Essential Training The Basics](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Git%20Essential%20Training%20The%20Basics.pdf)
 - [Git Intermediate Techniques](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Git%20Intermediate%20Techniques.pdf)
@@ -108,5 +147,14 @@ Here are some certificates I obtained recently.😄
 
 ## MVTEC
 
+### Courses
+
 - [MVTEC certificate attendance Deep Learning](https://heaohan.github.io/files/certificate/MVTEC/MVTEC%20certificate%20attendance%20Deep%20Learning.pdf)
 - [MVTEC certificate attendance](https://heaohan.github.io/files/certificate/MVTEC/MVTEC%20certificate%20attendance.pdf)
+
+## MySQL
+
+### Books
+
+- [Learning MySQL](https://www.goodreads.com/book/show/57645240-learning-mysql)
+- [Head First SQL](https://www.goodreads.com/book/show/1782447.Head_First_SQL)
