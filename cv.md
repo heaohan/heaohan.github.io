@@ -32,7 +32,7 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 
 - **Programming**: C#, C++, Python, MATLAB
 - **Software**: Halcon, Cognex, TensorFlow, PyTorch, OpenCV
-- **Tools**: Git, Visual Studio
+- **Tools**: Git, Visual Studio, Github Actions
 - **Methodology**: Software Engineering, Machine Vision, Machine Learning
 
 ## Continuous Learning
