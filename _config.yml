@@ -21,8 +21,8 @@ author: He Aohan
 
 navbar-links:
   About Me: "aboutme"
-  Learning: "learning"
   CV: "cv"
+  Learning: "learning"
   Resources:
     - "LinkedIn page": "https://www.linkedin.com/in/heaohan/"
     #- Beautiful Jekyll: "https://beautifuljekyll.com"

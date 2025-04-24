@@ -11,7 +11,7 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 - **PhD in Mechanical Engineering**, National University of Singapore (2016–2020)
   - Research focused on phase retrieval techniques, optical encryption, and GPU acceleration using CUDA.
 - **Bachelor in Measurement Control and Information Technology**, Beihang University (2011–2015)
-  - GPA: 3.85/4.00, Major GPA: 3.90/4.00, Rank: 1/170
+  - GPA: 3.85/4.00
 
 ## Work Experience
 
@@ -41,12 +41,18 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 - Completed courses on advanced NLP, GANs, and deep learning optimization.
 - Certifications in AI and machine learning from platforms like TensorFlow and PyTorch.
 
-### Agile Methodologies
+### Software Engineering
 
-- Certified in Agile practices, including PMI-ACP preparation and Kanban.
+- Read books like *Head First Design Patterns*, *The Pragmatic Programmer*, and *Head First Software Development*.
+- Completed courses on object-oriented design, software architecture, and design patterns.
+- Gained expertise in SOLID principles, refactoring, and clean code practices.
 
 ### System Design
 
 - Studied books like *Designing Data-Intensive Applications* and *System Design Interview*.
+
+### Agile Methodologies
+
+- Certified in Agile practices, including PMI-ACP preparation and Kanban.
 
 For a detailed overview of my learning journey, visit the [Continuous Learning](learning.md) page.
