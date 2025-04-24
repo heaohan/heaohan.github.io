@@ -15,8 +15,8 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 
 ## Work Experience
 
-- **Senior Engineer**, Seagate Singapore International Headquarters (2022–Present)
-  - Developed machine vision algorithms using Halcon and Cognex for assembly equipment.
+- **Senior Software Engineer**, Seagate Singapore International Headquarters (2022–Present)
+  - Developed machine vision algorithms and softwares for assembly equipment.
 - **Software Engineer**, Semiconductor Technologies & Instruments Pte Ltd (2020–2022)
   - Worked on image processing and computer vision for wafer inspection equipment.
 - **Teaching Assistant**, National University of Singapore (2016–2019)
@@ -51,6 +51,12 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 ### System Design
 
 - Studied books like *Designing Data-Intensive Applications* and *System Design Interview*.
+
+### Machine Vision
+
+- **Work**: Contiuously exploring advancement to solve the problem pragamatically.
+- **Graduate**: Applied optics, image processing, and computer vision techniques extensively in research.
+- **Undergraduate**: Studied Image Processing and Photoelectric Detective Techniques and System. Final year project involved using active computer vision to measure the inner diameter of wheels, including camera calibration, structured light calibration, and laser stripe extraction.
 
 ### Agile Methodologies
 
