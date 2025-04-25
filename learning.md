@@ -61,6 +61,7 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 - [Training Neural Networks in Python](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Training%20Neural%20Networks%20in%20Python.pdf)
 - [Transfer Learning for Images Using PyTorch Essential Training](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transfer%20Learning%20for%20Images%20Using%20PyTorch%20Essential%20Training.pdf)
 - [Transformers Text Classification for NLP Using BERT](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Transformers%20Text%20Classification%20for%20NLP%20Using%20BERT.pdf)
+- [Artificial Intelligence & Machine Learning for Business](/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_AI_ML_for_Biz.pdf)
 
 ## System Design
 
