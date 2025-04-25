@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About Me
 subtitle: Love and Sacrifice
 ---
 Hi, my name is Aohan! I’m a Senior Software Engineer at Seagate’s EDE team in Singapore. My role involves collaborating with a multidisciplinary team to develop machine vision solutions for assembly equipment.
