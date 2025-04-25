@@ -78,9 +78,7 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 - [Head First Software Development](https://www.goodreads.com/book/show/314063.Head_First_Software_Development)
 - [Head First Object-Oriented Analysis and Design](https://www.goodreads.com/en/book/show/179207.Head_First_Object_Oriented_Analysis_and_Design)
 - [The Pragmatic Programmer: From Journeyman to Master](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
-
 - [Head First Software Architecture](https://www.goodreads.com/book/show/171671941-head-first-software-architecture)
-
 
 ## Agile Methodologies
 
