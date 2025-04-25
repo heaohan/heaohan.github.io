@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: He Aohan's Blog 
+title: Aohan He, Software Engineer at Singapore
 
 # Your name to show in the footer
-author: He Aohan
+author: Aohan He
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -89,7 +89,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a personal blog of He Aohan, a Software Engineer at Singapore. It contains my research notes, learning notes, and other random thoughts. I hope you find it useful!
+rss-description: This website is a personal blog of Aohan He, a Software Engineer at Singapore. It contains my research notes, learning notes, and other random thoughts. I hope you find it useful!
 
 ###########################
 # --- General options --- #

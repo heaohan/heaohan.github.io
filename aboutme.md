@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: Why you'd want to make friend with me
 ---
-My name is He Aohan. I am a Senior Software Engineer at Seagate EDE team, Singapore. The role involves working within a multidisciplinary team to carry out machine vision development for assembly equipment.
+My name is Aohan. I am a Senior Software Engineer at Seagate EDE team, Singapore. The role involves working within a multidisciplinary team to carry out machine vision development for assembly equipment.
 
 I always want to seek something intrigues me.
 
