@@ -1,14 +1,16 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to make friend with me
+subtitle: Love and Sacrifice
 ---
-My name is Aohan. I am a Senior Software Engineer at Seagate EDE team, Singapore. The role involves working within a multidisciplinary team to carry out machine vision development for assembly equipment.
+Hi, my name is Aohan! I’m a Senior Software Engineer at Seagate’s EDE team in Singapore. My role involves collaborating with a multidisciplinary team to develop machine vision solutions for assembly equipment.
 
-I always want to seek something intrigues me.
+I am always on the lookout for things that intrigue and inspire me. Here are a few of my passions:
 
-- I like coding because I can feel and enjoy the inside beautiful logics when I do it.
-- I like playing basketball because I enjoy the cooperation and communication with teammates and competition with rivals both physically and mentally.
-- I like learning electronic keyboard because it further helps me enjoy the beautiful melodies composed by all those great musicians.
-- I like playing great video games such as DarkSoul and Witcher, since the virtual worlds they created are so vivid, interesting, moving & thought-provoking.
-- Finally, I am a fan of Liverpool Football Club. Their fighting spirit always inspires me.
+- Coding: I love coding because it reveals the beautiful logic and creativity that lie beneath the surface of problem-solving.
+- Basketball: Playing basketball allows me to experience teamwork, strategic communication, and the thrill of competition on both physical and mental levels.
+- Music: Learning the electronic keyboard helps me appreciate the artistry and emotion crafted by brilliant composers.
+- Gaming: I enjoy immersive and thought-provoking video games like Dark Souls and The Witcher. These virtual worlds are vivid, engaging, and often profoundly moving.
+- Liverpool FC: As a devoted fan, I find their fighting spirit both inspiring and motivating.
+
+If you share similar interests or simply enjoy great conversations, I’d be happy to connect!
