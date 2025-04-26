@@ -33,6 +33,51 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
   - Assisted in teaching modules such as Mechanics of Machines, Engineering Principles and Practice, and Mechanics of Materials.
   - Mentored undergraduate students in research projects involving image processing and system design.
 
+## Projects
+
+- **Vision System for Slider Bar Transfer Equipment** (2025)
+  - Designed a machine vision system for real-time measurement and guidance.
+  - Implemented algorithms to locate uncovered slider bars and rule-based measurement functions.
+  - Developed a deep learning model for tray type classification.
+  - Built vision sequences for hardware-triggered cameras and designed auto-teach/calibration routines.
+
+- **Vision System for Hard Drive Assembly Equipment** (2025)
+  - Developed a real-time vision system for measurement and guidance in hard drive assembly.
+  - Integrated high-speed camera processing with robot control systems.
+  - Designed auto-teach/calibration routines and CI/CD pipelines for deployment.
+
+- **CI/CD for Department Software Repositories** (2025)
+  - Implemented CI/CD pipelines for seamless deployment of station software and common libraries.
+  - Added features, fixed bugs, and advocated for CI/CD adoption, improving software quality and deployment speed.
+
+- **Disk and Spacer Assembly Simulation** (2024)
+  - Simulated disk and spacer assembly processes to estimate quality under different control strategies.
+  - Implemented simulations in Python with unit tests using PyTest.
+
+- **Vision System for Auto Screw Install Station** (2023)
+  - Designed a real-time vision system for screw installation guidance.
+  - Diagnosed and resolved software slowdowns, designed test sequences, and implemented CI/CD pipelines.
+
+- **Vision System for Auto Glue Dispenser Station** (2023)
+  - Conducted proof-of-concept for vision-guided glue dispensing using Halcon.
+  - Integrated rule-based localization and ML-based anomaly detection.
+  - Automated robot axis movement based on glue droplet measurement.
+
+- **Deep Learning Inspection Module for Wafer Inspection Vision System** (2022)
+  - Developed and integrated deep learning modules using Cognex Vidi.
+  - Supported robust deployment and extensive testing in production.
+
+- **Wafer Edge Inspection Module for Wafer Inspection Vision System** (2022)
+  - Developed edge inspection software and defined calibration sequences with control engineers.
+  - Ensured robustness through extensive testing and deployment support.
+
+- **3D Inspection Module for Wafer Inspection Vision System** (2021)
+  - Developed and optimized 3D inspection modules, including laser profiling and confocal microscopy integration.
+  - Built 3D UI displays and ensured reliability through rigorous testing.
+
+- **Recipe Load Optimization for Wafer Inspection Vision Software** (2020)
+  - Identified and optimized bottlenecks in recipe load processes, improving FOV and Dice map generation.
+
 ## Awards
 
 - Research Scholarship, NUS (2016–2020)
