@@ -90,9 +90,9 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 - **Programming**: C++, Python, MATLAB, CUDA, C#
 - **Machine Learning**: TensorFlow, PyTorch, Cognex VisionPro, Halcon
 - **Computer Vision**: OpenCV, Scikit-Image, Halcon, Cognex
+- **Machine Vision**: Optics, Camera Calibration, Vision-Guided Robot Control
 - **Software Development**: Agile Development, Git, CI/CD (GitHub Actions)
 - **System Design**: Distributed Systems, Data-Intensive Applications
-- **Documentation**: LaTeX, MS Office
 
 ## Continuous Learning
 
