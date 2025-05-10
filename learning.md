@@ -82,6 +82,62 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 - [Head First Software Architecture](https://www.goodreads.com/book/show/171671941-head-first-software-architecture)
 - [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/en/book/show/44144493-fundamentals-of-software-architecture)
 
+## C#
+
+### Books
+
+- [Head First C#](https://www.goodreads.com/book/show/56211024-head-first-c)
+
+### Courses
+- [Advanced Threading in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Advanced%20Threading%20in%20C%23.pdf)
+- [Async Programming in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Async%20Programming%20in%20C%23.pdf)
+- [C#  .NET Programming](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20%20.NET%20Programming.pdf)
+- [C# Best Practices for Developers](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Best%20Practices%20for%20Developers.pdf)
+- [C# Delegates Events and Lambdas](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Delegates%20Events%20and%20Lambdas.pdf)
+- [C# Design Patterns Part 1](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Design%20Patterns%20Part%201.pdf)
+- [C# Design Patterns Part 2](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Design%20Patterns%20Part%202.pdf)
+- [C# Refactoring Tips and Tricks](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Refactoring%20Tips%20and%20Tricks.pdf)
+- [Fluent API Development in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Fluent%20API%20Development%20in%20C%23.pdf)
+- [Learning SOLID Programming Principles](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Learning%20SOLID%20Programming%20Principles.pdf)
+- [LINQ with C# Essential Training](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_LINQ%20with%20C%23%20Essential%20Training.pdf)
+- [Object Oriented Programming with C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Object%20Oriented%20Programming%20with%20C%23.pdf)
+- [Ten Tips for the C# Developer](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Ten%20Tips%20for%20the%20C%23%20Developer.pdf)
+- [Threading in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Threading%20in%20C%23.pdf)
+
+## Python
+
+### Books
+
+- [Head First Python](https://www.goodreads.com/book/show/117364579-head-first-python)
+- [Python Testing with pytest: Simple, Rapid, Effective, and Scalable](https://www.goodreads.com/book/show/61071793-python-testing-with-pytest)
+
+## Git
+
+### Books
+
+- [Head First Git](https://www.goodreads.com/book/show/58230359-head-first-git)
+
+### Courses
+
+- [Git Branches Merges and Remotes](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Git%20Branches%20Merges%20and%20Remotes.pdf)
+- [Git Essential Training The Basics](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Git%20Essential%20Training%20The%20Basics.pdf)
+- [Git Intermediate Techniques](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Git%20Intermediate%20Techniques.pdf)
+- [Learning GitHub Actions](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Learning%20GitHub%20Actions.pdf)
+
+## MVTEC
+
+### Courses
+
+- [MVTEC certificate attendance Deep Learning](https://heaohan.github.io/files/certificate/MVTEC/MVTEC%20certificate%20attendance%20Deep%20Learning.pdf)
+- [MVTEC certificate attendance](https://heaohan.github.io/files/certificate/MVTEC/MVTEC%20certificate%20attendance.pdf)
+
+## MySQL
+
+### Books
+
+- [Learning MySQL](https://www.goodreads.com/book/show/57645240-learning-mysql)
+- [Head First SQL](https://www.goodreads.com/book/show/1782447.Head_First_SQL)
+
 ## Agile Methodologies
 
 ### Books
@@ -112,52 +168,3 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 - [Exam Tips PMI Agile Certified Practitioner PMIACP](https://heaohan.github.io/files/certificate/Agile%20Methdologies/Courses/CertificateOfCompletion_Exam%20Tips%20PMI%20Agile%20Certified%20Practitioner%20PMIACP.pdf)
 - [Stay Lean with Kanban](https://heaohan.github.io/files/certificate/Agile%20Methdologies/Courses/CertificateOfCompletion_Stay%20Lean%20with%20Kanban.pdf)
 - [Transitioning from Waterfall to Agile Project Management](https://heaohan.github.io/files/certificate/Agile%20Methdologies/Courses/CertificateOfCompletion_Transitioning%20from%20Waterfall%20to%20Agile%20Project%20Management.pdf)
-
-## C#
-
-### Books
-
-- [Head First C#](https://www.goodreads.com/book/show/56211024-head-first-c)
-
-### Courses
-- [Advanced Threading in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Advanced%20Threading%20in%20C%23.pdf)
-- [Async Programming in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Async%20Programming%20in%20C%23.pdf)
-- [C#  .NET Programming](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20%20.NET%20Programming.pdf)
-- [C# Best Practices for Developers](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Best%20Practices%20for%20Developers.pdf)
-- [C# Delegates Events and Lambdas](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Delegates%20Events%20and%20Lambdas.pdf)
-- [C# Design Patterns Part 1](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Design%20Patterns%20Part%201.pdf)
-- [C# Design Patterns Part 2](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Design%20Patterns%20Part%202.pdf)
-- [C# Refactoring Tips and Tricks](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_C%23%20Refactoring%20Tips%20and%20Tricks.pdf)
-- [Fluent API Development in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Fluent%20API%20Development%20in%20C%23.pdf)
-- [Learning SOLID Programming Principles](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Learning%20SOLID%20Programming%20Principles.pdf)
-- [LINQ with C# Essential Training](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_LINQ%20with%20C%23%20Essential%20Training.pdf)
-- [Object Oriented Programming with C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Object%20Oriented%20Programming%20with%20C%23.pdf)
-- [Ten Tips for the C# Developer](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Ten%20Tips%20for%20the%20C%23%20Developer.pdf)
-- [Threading in C#](https://heaohan.github.io/files/certificate/C%23/CertificateOfCompletion_Threading%20in%20C%23.pdf)
-
-## Git
-
-### Books
-
-- [Head First Git](https://www.goodreads.com/book/show/58230359-head-first-git)
-
-### Courses
-
-- [Git Branches Merges and Remotes](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Git%20Branches%20Merges%20and%20Remotes.pdf)
-- [Git Essential Training The Basics](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Git%20Essential%20Training%20The%20Basics.pdf)
-- [Git Intermediate Techniques](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Git%20Intermediate%20Techniques.pdf)
-- [Learning GitHub Actions](https://heaohan.github.io/files/certificate/Git/CertificateOfCompletion_Learning%20GitHub%20Actions.pdf)
-
-## MVTEC
-
-### Courses
-
-- [MVTEC certificate attendance Deep Learning](https://heaohan.github.io/files/certificate/MVTEC/MVTEC%20certificate%20attendance%20Deep%20Learning.pdf)
-- [MVTEC certificate attendance](https://heaohan.github.io/files/certificate/MVTEC/MVTEC%20certificate%20attendance.pdf)
-
-## MySQL
-
-### Books
-
-- [Learning MySQL](https://www.goodreads.com/book/show/57645240-learning-mysql)
-- [Head First SQL](https://www.goodreads.com/book/show/1782447.Head_First_SQL)
