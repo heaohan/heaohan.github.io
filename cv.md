@@ -15,7 +15,8 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 - **Bachelor in Measurement Control and Information Technology**, Beihang University (2011–2015)
   - Specialized in optics, computer science, control systems, and signal processing.
   - Conducted research on rail wheel diameter measurement and laser structure light.
-  - Graduated with First-Class Honors.
+  - Graduated with top academic distinction based on GPA.
+.
 
 ## Work Experience
 
