@@ -16,7 +16,6 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
   - Specialized in optics, computer science, control systems, and signal processing.
   - Conducted research on rail wheel diameter measurement and laser structure light.
   - Graduated with top academic distinction based on GPA.
-.
 
 ## Work Experience
 
@@ -28,7 +27,7 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 - **Software Engineer**, Semiconductor Technologies & Instruments Pte Ltd (2020–2022)
   - Designed advanced image processing algorithms for wafer inspection, including edge defect detection and bump height measurement.
   - Spearheaded the development of deep learning-based segmentation models.
-  - Implemented real-time 3D laser profiling systems, achieving sub-micron accuracy in defect detection.
+  - Developed and optimized 3D inspection modules with laser profiling and confocal microscopy, including 3D UI displays and rigorous reliability testing.
   - Optimized software pipelines for high-throughput inspection systems.
 - **Teaching Assistant**, National University of Singapore (2016–2019)
   - Assisted in teaching modules such as Mechanics of Machines, Engineering Principles and Practice, and Mechanics of Materials.
