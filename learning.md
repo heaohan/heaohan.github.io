@@ -22,6 +22,9 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 - [Advance Your Skills in AI and Machine Learning](https://heaohan.github.io/files/certificate/Machine%20Learning/Learning%20Path/CertificateOfCompletion_Advance%20Your%20Skills%20in%20AI%20and%20Machine%20Learning.pdf)
 - [Advance Your Skills in Deep Learning and Neural Networks](https://heaohan.github.io/files/certificate/Machine%20Learning/Learning%20Path/CertificateOfCompletion_Advance%20Your%20Skills%20in%20Deep%20Learning%20and%20Neural%20Networks.pdf)
 
+### Workshop
+- [Build your code-first agent with Azure AI Foundry](https://microsoft.github.io/build-your-first-agent-with-azure-ai-agent-service-workshop/)
+
 ### Courses
 
 - [Advanced NLP with Python for Machine Learning](https://heaohan.github.io/files/certificate/Machine%20Learning/Courses/CertificateOfCompletion_Advanced%20NLP%20with%20Python%20for%20Machine%20Learning.pdf)
