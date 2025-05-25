@@ -85,6 +85,9 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 - [Head First Software Architecture](https://www.goodreads.com/book/show/171671941-head-first-software-architecture)
 - [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/en/book/show/44144493-fundamentals-of-software-architecture)
 
+### Course
+- [Clean Code](https://seagate.udemy.com/certificate/UC-89dfae99-c616-43b6-a42f-15d454bafd10/)
+
 ## C#
 
 ### Books
