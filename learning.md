@@ -74,6 +74,9 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 - [System Design Interview – An Insider's Guide: Volume 2](https://www.goodreads.com/en/book/show/60631342-system-design-interview-an-insider-s-guide)
 - [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications)
 
+### Courses
+- [Mastering the System Design Interview](https://seagate.udemy.com/certificate/UC-7ac65920-ec0b-416e-9148-5a765f9f5f0a/)
+
 ## Software Engineering
 
 ### Books
