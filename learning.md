@@ -14,6 +14,7 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 - [Machine Learning System Design Interview](https://www.goodreads.com/en/book/show/120532868-machine-learning-system-design-interview)
 - [Generative AI System Design Interview](https://www.goodreads.com/book/show/221577013-generative-ai-system-design-interview)
 - [AI Engineering: Building Applications with Foundation Models](https://www.goodreads.com/book/show/216848047-ai-engineering)
+- [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://www.goodreads.com/en/book/show/60715378-designing-machine-learning-systems)
 
 ### Learning Path
 
@@ -90,6 +91,9 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 
 ### Course
 - [Clean Code](https://seagate.udemy.com/certificate/UC-89dfae99-c616-43b6-a42f-15d454bafd10/)
+
+### Learning Path
+- [Create cloud-native apps and services with .NET and ASP.NET Core](https://learn.microsoft.com/en-us/users/aohanhe-5055/achievements/cxef7jb9?ref=https%3A%2F%2Fwww.linkedin.com%2F)
 
 ## C#
 
