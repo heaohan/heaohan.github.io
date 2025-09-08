@@ -19,11 +19,11 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 
 ## Work Experience
 
-- **Senior Software Engineer**, Seagate Singapore International Headquarters (2022–Present)
+- **Senior / Staff Software Engineer**, Seagate Singapore International Headquarters (2022–Present)
   - Designed and implemented machine vision algorithms for high-precision assembly equipment, including pick-and-place tasks and defect detection.
   - Developed a hybrid rule-based and machine learning vision system for transferring slider bars.
   - Integrated CI/CD pipelines using GitHub Actions for automated software development.
-  - Collaborated with cross-functional teams to design scalable software architectures for automated inspection systems.
+  - Collaborated with cross-functional teams to design clean software architectures for automated inspection systems.
 - **Software Engineer**, Semiconductor Technologies & Instruments Pte Ltd (2020–2022)
   - Designed advanced image processing algorithms for wafer inspection, including edge defect detection and bump height measurement.
   - Spearheaded the development of deep learning-based segmentation models.
