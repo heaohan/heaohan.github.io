@@ -25,6 +25,7 @@ Here is an overview of my journey in Continuous Learning as a Software Engineer.
 
 ### Workshop
 - [Build your code-first agent with Azure AI Foundry](https://microsoft.github.io/build-your-first-agent-with-azure-ai-agent-service-workshop/)
+- [Powering AI with MCP Workshop](https://www.eventbrite.sg/e/powering-ai-with-mcp-workshop-tickets-1898434411429)
 
 ### Courses
 
