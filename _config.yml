@@ -195,6 +195,19 @@ gtag: "G-6FHGKQKJ54"
 # you should switch to using the `gtag` field above instead.
 #google_analytics: "UA-XXXXXXXX-X"
 
+############################
+# --- New Features (v6.1) --- #
+############################
+
+# To add a favicon, simply add a favicon.ico file to the root directory of your website
+# The theme will automatically detect and use it
+
+# To enable MathJax support for LaTeX math expressions, add 'mathjax: true' to any page's YAML front matter
+# Example usage in markdown: Inline math $x^2$ or block math $$\int_0^1 x^2 dx$$
+
+# To specify a custom author for individual blog posts, add 'author: Your Name' to the post's YAML front matter
+# This will override the site-wide author setting for that specific post
+
 ####################
 # --- Comments --- #
 ####################
