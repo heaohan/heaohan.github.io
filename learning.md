@@ -8,7 +8,7 @@ Here is an overview of my journey in continuous learning as a software engineer.
 
 ## 🎯 Currently Learning (November 2025)
 
-**Books I'm Reading:**
+**Recent Books Read:**
 - 📖 *Generative AI System Design Interview* - Understanding LLM architecture patterns
 - 📖 *AI Engineering: Building Applications with Foundation Models* - Practical AI deployment
 - 📖 *Software Architecture: The Hard Parts* - Making better architectural trade-offs
