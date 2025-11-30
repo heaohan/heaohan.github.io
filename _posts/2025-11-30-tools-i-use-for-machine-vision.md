@@ -26,11 +26,11 @@ After years of building machine vision systems for manufacturing, I've settled o
 
 **Typical use case:** Vision-guided robotics, high-precision measurement, geometric analysis
 
-### Cognex VisionPro
+### Halcon
 **When I use it:** Deep learning integration and complex inspection tasks
 
 **Why it's useful:**
-- VidiSuite makes DL deployment straightforward
+- HDevelop makes DL deployment straightforward
 - Good integration with cameras and hardware
 - Powerful for defect detection
 - Industry-standard reliability
@@ -112,30 +112,11 @@ Test on actual production images:
 - Part variations
 - Different camera positions
 
-### 3. Implement in Production Language (C++)
-Once algorithm is proven:
-```cpp
-// Production implementation in C++
-class VisionAlgorithm {
-public:
-    bool Process(const cv::Mat& image, 
-                 Result& output) {
-        // Optimized implementation
-        // ...
-    }
-};
-```
+### 3. Implement in Production Language (C##)
+Once algorithm is proven
 
 ### 4. Create Automated Tests
-Cover critical functionality:
-```cpp
-TEST(VisionAlgorithmTest, HandlesNormalCase) {
-    VisionAlgorithm algo;
-    Result result;
-    ASSERT_TRUE(algo.Process(test_image, result));
-    EXPECT_NEAR(result.value, expected, tolerance);
-}
-```
+Cover critical functionality
 
 ### 5. Deploy via CI/CD
 - Automated builds on commit
