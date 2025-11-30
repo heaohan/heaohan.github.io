@@ -21,12 +21,13 @@ author: Aohan He
 
 navbar-links:
   About Me: "aboutme"
+  Projects: "projects"
   CV: "cv"
   Learning: "learning"
+  Now: "now"
   Resources:
-    - "LinkedIn page": "https://www.linkedin.com/in/heaohan/"
-    #- Beautiful Jekyll: "https://beautifuljekyll.com"
-    #- Learn markdown: "https://www.markdowntutorial.com/"
+    - "LinkedIn": "https://www.linkedin.com/in/heaohan/"
+    - "GitHub": "https://github.com/heaohan"
   
 
 ################

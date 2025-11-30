@@ -4,7 +4,25 @@ title: Continuous Learning
 subtitle: Always remember I want to be a better Software Engineer
 ---
 
-Here is an overview of my journey in Continuous Learning as a Software Engineer. 😄
+Here is an overview of my journey in continuous learning as a software engineer. This page documents courses completed, books read, and skills acquired in my quest to become a better engineer. 😄
+
+## 🎯 Currently Learning (November 2025)
+
+**Books I'm Reading:**
+- 📖 *Generative AI System Design Interview* - Understanding LLM architecture patterns
+- 📖 *AI Engineering: Building Applications with Foundation Models* - Practical AI deployment
+- 📖 *Software Architecture: The Hard Parts* - Making better architectural trade-offs
+
+**Recent Workshops:**
+- ✅ Microsoft Build your code-first agent with Azure AI Foundry
+- ✅ Powering AI with MCP Workshop
+
+**Focus Areas:**
+- Foundation models and RAG systems
+- System design for ML in production  
+- Advanced software architecture patterns
+
+---
 
 ## Machine Learning
 
