@@ -33,18 +33,43 @@ Implement full CI/CD for all repositories immediately with automated testing, de
 **What I actually did:**
 Started with ONE repository and ONE simple pipeline:
 ```yaml
-# First GitHub Actions workflow - just build and test
-name: CI
-on: [push]
+# First GitHub Actions workflow - just build and test .NET Framework 4.8
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
-  build:
+  build-test:
     runs-on: windows-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - name: Build
-        run: cmake --build .
-      - name: Test
-        run: ctest
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v2
+      with:
+        nuget-version: '6.x'
+
+    - name: Restore NuGet packages
+      run: nuget restore **/*.sln
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+
+    - name: Build solution
+      run: msbuild **/*.sln /p:Configuration=Release /p:Platform="Any CPU"
+
+    - name: Test with VSTest
+      uses: darenm/RunVSTests@v1
+      with:
+        testFiles: |
+          **\*test*.dll
+          !**\*TestAdapter.dll
+          !**\obj\**
 ```
 
 **Why it worked:**
