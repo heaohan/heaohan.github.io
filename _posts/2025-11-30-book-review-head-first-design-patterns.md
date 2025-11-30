@@ -109,9 +109,8 @@ After each chapter, I would:
 After *Head First Design Patterns*, I read:
 
 1. **Head First Object-Oriented Analysis & Design** - OO principles
-2. **Refactoring** by Martin Fowler - How to improve existing code
-3. **Clean Code** by Robert Martin - Code quality principles
-4. **Gang of Four** - Original patterns book (now makes sense!)
+2. **Head First Software Development** - Software Developement principles
+3. **The Pragmatic Programmer: From Journeyman to Master** - Software Development Best Practice
 
 ## 💭 Final Thoughts
 
