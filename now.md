@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What I'm Doing Now
-subtitle: Updated November 2025
+subtitle: Updated December 2025
 ---
 
 This is a [now page](https://nownownow.com/about), inspired by Derek Sivers, showing what I'm currently focused on.
@@ -17,10 +17,11 @@ At Seagate Singapore, I'm currently:
 
 ## 📖 Learning
 
-**Currently Reading:**
-- *Generative AI System Design Interview* - Deepening understanding of LLM system architecture
-- *AI Engineering: Building Applications with Foundation Models* - Practical patterns for production AI
+**Recent Books Read:**
+- *AI Engineering: Building Applications with Foundation Models* - Practical AI deployment
 - *Software Architecture: The Hard Parts* - Making better architectural trade-off decisions
+- *The Software Engineer's Guidebook* - Experiences of how to become a better software engineer
+- *Head First Networking* - Fundamentals of Networking Hardware
 
 **Recent Completions:**
 - Microsoft Build your code-first agent with Azure AI Foundry workshop
@@ -48,6 +49,6 @@ At Seagate Singapore, I'm currently:
 
 ---
 
-*Last updated: November 30, 2025*
+*Last updated: December 1, 2025*
 
 **Want to connect?** Reach out via [email](mailto:heaohan@gmail.com) or [LinkedIn](https://www.linkedin.com/in/heaohan/)!
