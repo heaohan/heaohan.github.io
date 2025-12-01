@@ -9,9 +9,10 @@ Here is an overview of my journey in continuous learning as a software engineer.
 ## 🎯 Currently Learning (November 2025)
 
 **Recent Books Read:**
-- 📖 *Generative AI System Design Interview* - Understanding LLM architecture patterns
 - 📖 *AI Engineering: Building Applications with Foundation Models* - Practical AI deployment
 - 📖 *Software Architecture: The Hard Parts* - Making better architectural trade-offs
+- 📖 *The Software Engineer's Guidebook* - Experiences of how to become a better software engineer
+- 📖 *Head First Networking* - Fundamentals of Networking Hardware
 
 **Recent Workshops:**
 - ✅ Microsoft Build your code-first agent with Azure AI Foundry
@@ -42,6 +43,7 @@ Here is an overview of my journey in continuous learning as a software engineer.
 - [Advance Your Skills in Deep Learning and Neural Networks](https://heaohan.github.io/files/certificate/Machine%20Learning/Learning%20Path/CertificateOfCompletion_Advance%20Your%20Skills%20in%20Deep%20Learning%20and%20Neural%20Networks.pdf)
 
 ### Workshop
+
 - [Build your code-first agent with Azure AI Foundry](https://microsoft.github.io/build-your-first-agent-with-azure-ai-agent-service-workshop/)
 - [Powering AI with MCP Workshop](https://www.eventbrite.sg/e/powering-ai-with-mcp-workshop-tickets-1898434411429)
 
@@ -108,6 +110,7 @@ Here is an overview of my journey in continuous learning as a software engineer.
 - [Head First Software Architecture](https://www.goodreads.com/book/show/171671941-head-first-software-architecture)
 - [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/en/book/show/44144493-fundamentals-of-software-architecture)
 - [Software Architecture: The Hard Parts](https://www.goodreads.com/book/show/58153482-software-architecture)
+- [Head First Networking](https://www.goodreads.com/book/show/6368737-head-first-networking)
 
 ### Course
 - [Clean Code](https://seagate.udemy.com/certificate/UC-89dfae99-c616-43b6-a42f-15d454bafd10/)

@@ -6,7 +6,7 @@ date: 2025-11-30
 tags: [cicd, devops, software-engineering, manufacturing, lessons-learned]
 ---
 
-Two years ago, our team's software deployment process looked like this: manual builds, USB drive transfers, crossed fingers, and a lot of hope. Today, we push commits that automatically test, build, and deploy to production stations. Here's what I learned making that transition.
+Two years ago, our team's software deployment process looked like this: manual builds, USB drive transfers, crossed fingers, and a lot of hope. Today, we have achieve good progress on our way to push commits that automatically test, build, and deploy to production stations. Here's what I learned making that transition.
 
 ## 🎯 The Challenge
 
@@ -106,25 +106,9 @@ Invested in building a test pyramid:
 ```
 
 **Our testing strategy:**
-1. **Unit tests** (Google Test) - Fast, run on every commit
-   ```cpp
-   TEST(ImageProcessingTest, FindsCircle) {
-       cv::Mat test_image = LoadTestImage();
-       auto result = FindCircle(test_image);
-       EXPECT_TRUE(result.found);
-       EXPECT_NEAR(result.radius, 50.0, 1.0);
-   }
-   ```
+1. **Unit tests** (NetFramework Test) - Fast, run on every commit
 
 2. **Integration tests** - Test component interactions
-   ```cpp
-   TEST(VisionSystemTest, CameraToProcessing) {
-       Camera cam = InitCamera(test_config);
-       auto image = cam.Capture();
-       auto result = ProcessImage(image);
-       EXPECT_TRUE(result.valid);
-   }
-   ```
 
 3. **Hardware tests** - Staged environment before production
    - Run on dedicated test station
