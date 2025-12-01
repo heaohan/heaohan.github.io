@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "5 Lessons from Implementing CI/CD at Seagate"
+title: "5 Lessons from Implementing CI/CD in the Automation Equipment Design Department"
 subtitle: "What I learned automating deployment for manufacturing software"
 date: 2025-11-30
 tags: [cicd, devops, software-engineering, manufacturing, lessons-learned]
@@ -234,8 +234,8 @@ Here's what I'd do differently:
 
 **Tools we use:**
 - **GitHub Actions** - CI/CD pipelines
-- **CMake** - Build system
-- **Google Test** - Unit testing
+- **msbuild** - Build system
+- **NetFramework Test** - Unit testing
 - **Docker** (exploring) - Consistent environments
 
 **Communities:**
