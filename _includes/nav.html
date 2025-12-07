@@ -1,9 +1,11 @@
+<a href="#main-content" class="skip-to-main">Skip to main content</a>
+
 <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom {% if page.nav-short %}top-nav-short-permanent{% else %}top-nav-regular{% endif %}">
 
   {%- if site.title-img -%}
-    <a class="navbar-brand navbar-brand-logo" href="{{ '/' | absolute_url }}"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}"/></a>
+    <a class="navbar-brand navbar-brand-logo" href="{{ '/' | absolute_url }}" aria-label="{{ site.title }} home page"><img alt="{{ site.title }} Logo" src="{{ site.title-img | relative_url}}" width="50" height="50"/></a>
   {%- elsif site.title -%}
-    <a class="navbar-brand" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+    <a class="navbar-brand" href="{{ '/' | absolute_url }}" aria-label="{{ site.title }} home page">{{ site.title }}</a>
   {%- endif -%}
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,8 +52,8 @@
   {% if site.avatar and page.show-avatar != false %}
     <div class="avatar-container">
       <div class="avatar-img-border">
-        <a href="{{ '/' | absolute_url }}">
-          <img alt="Navigation bar avatar" class="avatar-img" src="{{ site.avatar | relative_url }}" />
+        <a href="{{ '/' | absolute_url }}" aria-label="Home page">
+          <img alt="{{ site.author | default: site.title }} avatar" class="avatar-img" src="{{ site.avatar | relative_url }}" width="50" height="50" />
         </a>
       </div>
     </div>

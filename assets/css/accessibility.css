@@ -1,0 +1,320 @@
+/* Accessibility Improvements */
+
+/* 1. Improve link color contrast for better readability */
+:root {
+  /* Enhanced contrast for links - ensures 4.5:1 ratio on white background */
+  --link-col-accessible: #0056b3;
+  --hover-col-accessible: #003d82;
+}
+
+/* Override link colors for better contrast */
+a:not(.btn):not(.navbar-brand):not(.nav-link):not(.dropdown-item) {
+  color: var(--link-col-accessible, #0056b3);
+}
+
+a:not(.btn):not(.navbar-brand):not(.nav-link):not(.dropdown-item):hover,
+a:not(.btn):not(.navbar-brand):not(.nav-link):not(.dropdown-item):focus {
+  color: var(--hover-col-accessible, #003d82);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+/* 2. Increase touch target sizes for mobile (minimum 48x48px) */
+.navbar-toggler {
+  min-width: 48px;
+  min-height: 48px;
+  padding: 12px;
+}
+
+.nav-link {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 12px 16px !important;
+}
+
+.footer-links a {
+  min-width: 48px;
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+
+.list-inline-item {
+  margin: 8px !important; /* Add spacing between touch targets */
+}
+
+/* 3. Improve focus indicators for keyboard navigation */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid #0056b3;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.2);
+}
+
+/* Skip to main content link for keyboard users */
+.skip-to-main {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color: #0056b3;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.skip-to-main:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+}
+
+/* 4. Ensure sufficient spacing between interactive elements */
+.navbar-nav .nav-item + .nav-item {
+  margin-left: 8px;
+}
+
+@media (max-width: 1199.98px) {
+  .navbar-nav .nav-item {
+    margin: 8px 0;
+  }
+}
+
+/* 5. Improve button contrast and visibility */
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  font-weight: 600;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #003d82;
+  border-color: #003d82;
+}
+
+/* 6. Better visible focus for form elements */
+.form-control:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
+}
+
+/* 7. Improve readability of navbar on mobile */
+@media (max-width: 1199.98px) {
+  .navbar-custom .navbar-nav .nav-link {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 1.1rem;
+  }
+}
+
+/* 8. Enhance dropdown contrast */
+.dropdown-menu {
+  border: 2px solid #dee2e6;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* 9. Improve code block contrast */
+pre,
+code {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+}
+
+code {
+  color: #d63384;
+  padding: 2px 6px;
+}
+
+/* 10. Better visibility for selected text */
+::selection {
+  background-color: #0056b3;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* 11. Ensure proper contrast for footer links */
+footer a {
+  color: #0056b3;
+  font-weight: 500;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #003d82;
+  text-decoration: underline;
+}
+
+/* 12. Improve visibility of social media icons */
+.footer-links .fa-stack {
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+  transition: transform 0.2s ease;
+}
+
+.footer-links a:hover .fa-stack,
+.footer-links a:focus .fa-stack {
+  transform: scale(1.1);
+}
+
+/* 13. Better spacing for readability */
+p {
+  line-height: 1.7;
+  margin-bottom: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  line-height: 1.3;
+}
+
+/* 14. Improve table accessibility */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* 15. Ensure images don't cause layout shift */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Add aspect ratio boxes if needed */
+.img-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 16. Improve search button visibility and size */
+#nav-search-link {
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 17. Better visual hierarchy */
+.post-heading h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+  .post-heading h1 {
+    font-size: 2rem;
+  }
+}
+
+/* 18. Improve pagination contrast */
+.pagination .page-link {
+  color: #0056b3;
+  border: 2px solid #dee2e6;
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 4px;
+}
+
+.pagination .page-link:hover,
+.pagination .page-link:focus {
+  background-color: #0056b3;
+  color: white;
+  border-color: #0056b3;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* 19. Ensure proper heading hierarchy */
+.intro-header .page-heading h1,
+.intro-header .post-heading h1 {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* 20. Improve blockquote visibility */
+blockquote {
+  border-left: 4px solid #0056b3;
+  padding-left: 1.5rem;
+  margin-left: 0;
+  font-style: italic;
+  color: #404040;
+  background-color: #f9f9f9;
+  padding: 1rem 1.5rem;
+}
+
+/* Reduced motion support for users with vestibular disorders */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* High contrast mode adjustments */
+@media (prefers-contrast: high) {
+  a {
+    text-decoration: underline;
+  }
+  
+  button,
+  .btn {
+    border-width: 3px;
+  }
+}
+
+/* Dark mode support (if implementing later) */
+@media (prefers-color-scheme: dark) {
+  /* Keep light mode for now, but structure is ready */
+}
