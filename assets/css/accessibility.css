@@ -27,11 +27,19 @@ a:not(.btn):not(.navbar-brand):not(.nav-link):not(.dropdown-item):focus {
   padding: 12px;
 }
 
+/* Touch target size for nav links - only enforce minimum height */
 .nav-link {
   min-height: 48px;
   display: flex;
   align-items: center;
-  padding: 12px 16px !important;
+}
+
+/* Only adjust padding on mobile for better touch targets */
+@media (max-width: 1199.98px) {
+  .navbar-custom .navbar-nav .nav-link {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
 }
 
 .footer-links a {
@@ -81,11 +89,14 @@ select:focus {
   margin-left: 8px;
 }
 
-/* Prevent navigation items from being hidden by centered avatar */
-@media (min-width: 1200px) {
-  .navbar-custom .navbar-collapse {
-    max-width: calc(100% - 140px); /* Leave space for centered avatar (100px + buffers) */
-  }
+/* Fix: Ensure navbar items stay above avatar */
+.navbar-custom .navbar-collapse {
+  position: relative;
+  z-index: 10;
+}
+
+.navbar-custom .avatar-container {
+  z-index: 1;
 }
 
 @media (max-width: 1199.98px) {
@@ -116,8 +127,6 @@ select:focus {
 /* 7. Improve readability of navbar on mobile */
 @media (max-width: 1199.98px) {
   .navbar-custom .navbar-nav .nav-link {
-    padding-top: 16px;
-    padding-bottom: 16px;
     font-size: 1.1rem;
   }
 }
