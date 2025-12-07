@@ -81,6 +81,13 @@ select:focus {
   margin-left: 8px;
 }
 
+/* Prevent navigation items from being hidden by centered avatar */
+@media (min-width: 1200px) {
+  .navbar-custom .navbar-collapse {
+    max-width: calc(100% - 140px); /* Leave space for centered avatar (100px + buffers) */
+  }
+}
+
 @media (max-width: 1199.98px) {
   .navbar-nav .nav-item {
     margin: 8px 0;
