@@ -10,7 +10,7 @@
        alt="{{ include.alt }}" 
        {% if include.width %}width="{{ include.width }}"{% endif %}
        {% if include.height %}height="{{ include.height }}"{% endif %}
-       {% if include.lazy %}loading="lazy"{% endif %}
+       loading="{% if include.lazy == false %}eager{% else %}lazy{% endif %}"
        {% if include.class %}class="{{ include.class }}"{% endif %}>
 </picture>
 {% else %}
@@ -18,6 +18,6 @@
      alt="{{ include.alt }}"
      {% if include.width %}width="{{ include.width }}"{% endif %}
      {% if include.height %}height="{{ include.height }}"{% endif %}
-     {% if include.lazy %}loading="lazy"{% endif %}
+     loading="{% if include.lazy == false %}eager{% else %}lazy{% endif %}"
      {% if include.class %}class="{{ include.class }}"{% endif %}>
 {% endif %}

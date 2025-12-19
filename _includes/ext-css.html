@@ -2,7 +2,7 @@
   <link href="{{ include.css.href }}" rel="preload" as="style" integrity="{{ include.css.sri }}" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="{{ include.css.href }}" rel="stylesheet" integrity="{{ include.css.sri }}" crossorigin="anonymous"></noscript>
 {% elsif include.css.href %}
-  <link rel="preload" as="style" href="{{ include.css.href }}" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" as="style" href="{{ include.css.href }}" {% if include.css.media %}media="{{ include.css.media }}"{% endif %} onload="{% if include.css.media %}this.media='all';{% endif %}this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="{{ include.css.href }}"></noscript>
 {% else %}
   <link rel="stylesheet" href="{{ include.css }}">

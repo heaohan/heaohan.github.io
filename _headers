@@ -1,0 +1,48 @@
+# Cache headers for GitHub Pages / Netlify
+# See: https://docs.netlify.com/routing/headers/
+
+# Cache static assets for 1 year
+/assets/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/data/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache fonts for 1 year
+*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+*.woff
+  Cache-Control: public, max-age=31536000, immutable
+
+*.ttf
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML pages - cache for 1 hour, must revalidate
+/*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Feed and sitemap - cache for 1 hour
+/feed.xml
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Root page - cache for 5 minutes
+/
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Security headers
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
