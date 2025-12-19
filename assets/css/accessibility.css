@@ -85,8 +85,11 @@ select:focus {
 }
 
 /* 4. Ensure sufficient spacing between interactive elements */
-.navbar-nav .nav-item + .nav-item {
-  margin-left: 8px;
+/* Only apply margin-left on desktop (horizontal nav) */
+@media (min-width: 1200px) {
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 8px;
+  }
 }
 
 /* Fix: Ensure navbar items stay above avatar */
