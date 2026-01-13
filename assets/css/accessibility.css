@@ -192,6 +192,31 @@ footer a:focus {
   transform: scale(1.1);
 }
 
+/* Fix social share button icon visibility */
+#social-share-section .btn-social-icon {
+  overflow: visible !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+  width: 34px !important;
+  height: 34px !important;
+}
+
+#social-share-section .btn-social-icon .fab {
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  width: auto !important;
+  line-height: inherit !important;
+  font-size: 1.6em !important;
+  text-align: center;
+  border: none !important;
+  display: block;
+  color: #fff;
+}
+
 /* 13. Better spacing for readability */
 p {
   line-height: 1.7;
