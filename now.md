@@ -15,6 +15,7 @@ At Seagate Singapore, I'm currently:
 - Mentoring team members on software architecture and ML integration
 - Exploring ways to integrate generative AI into manufacturing workflows
 
+
 ## 📖 Learning
 
 **Recent Books Read:**
@@ -23,10 +24,12 @@ At Seagate Singapore, I'm currently:
 - *The Software Engineer's Guidebook* - Experiences of how to become a better software engineer
 - *Head First Networking* - Fundamentals of Networking Hardware
 
-**Recent Completions:**
+**Recent Events & Completions:**
+- Attended HackOMania 2026 Pre-Event at NETS: Learned about Singapore's payment backbone, ClickHouse agent demo, and Google's ADK for multi-agent systems ([blog post](./_posts/2026-03-01-hackomania-pre-event-experiences.md))
 - Microsoft Build your code-first agent with Azure AI Foundry workshop
 - Powering AI with MCP Workshop
 - Various courses on advanced NLP and deep learning optimization
+
 
 ## 🔨 Personal Projects
 

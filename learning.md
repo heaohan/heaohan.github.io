@@ -6,7 +6,8 @@ subtitle: Always remember I want to be a better Software Engineer
 
 Here is an overview of my journey in continuous learning as a software engineer. This page documents courses completed, books read, and skills acquired in my quest to become a better engineer. 😄
 
-## 🎯 Currently Learning (November 2025)
+
+## 🎯 Currently Learning (March 2026)
 
 **Recent Books Read:**
 - 📖 *AI Engineering: Building Applications with Foundation Models* - Practical AI deployment
@@ -14,13 +15,14 @@ Here is an overview of my journey in continuous learning as a software engineer.
 - 📖 *The Software Engineer's Guidebook* - Experiences of how to become a better software engineer
 - 📖 *Head First Networking* - Fundamentals of Networking Hardware
 
-**Recent Workshops:**
+**Recent Workshops & Events:**
+- ✅ HackOMania 2026 Pre-Event at NETS: Explored Singapore's payment infrastructure, ClickHouse agent demo, and Google's ADK session on multi-agent systems ([Read my experience](./_posts/2026-03-01-hackomania-pre-event-experiences.md))
 - ✅ Microsoft Build your code-first agent with Azure AI Foundry
 - ✅ Powering AI with MCP Workshop
 
 **Focus Areas:**
 - Foundation models and RAG systems
-- System design for ML in production  
+- System design for ML in production
 - Advanced software architecture patterns
 
 ---
