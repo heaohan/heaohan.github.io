@@ -1,7 +1,7 @@
 ---
 title: "HackOMania 2026 Pre-Event: Learning at NETS"
 date: 2026-03-01
-tags: [agent, workshop, MCP, ADK, GeekHacking]
+tags: [agent, workshop, MCP, ADK, GeeksHacking]
 ---
 
 I didn't go to [HackOMania 2026](https://hackomania.geekshacking.com/) to compete in the hackathon. There were two reasons: first, 24 hours without sleep sounds horrible; second, I couldn't find enough teammates. Instead, I joined the pre-event at NETS simply to learn, to listen, and to see what new ideas were being shared. Honestly, it turned out to be a rewarding decision.
