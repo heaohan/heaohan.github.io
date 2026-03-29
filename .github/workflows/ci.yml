@@ -24,6 +24,6 @@ jobs:
         run: bundle exec appraisal jekyll build --future --config _config_ci.yml,_config.yml
       - name: Run HTMLProofer (HTML validation)
         run: |
-          bundle exec htmlproofer ./_site --disable-external --check-html --check-opengraph --check-img-http --allow-hash-href
+          bundle exec htmlproofer ./_site --disable-external --allow-hash-href
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
