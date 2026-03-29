@@ -25,7 +25,7 @@ jobs:
       - name: Lint CSS
         run: npx stylelint "assets/css/**/*.css"
       - name: Lint JS
-        run: npx eslint "assets/js/**/*.js" --ext .js --no-error-on-unmatched-pattern
+        run: npx eslint "assets/js/**/*.js" --no-error-on-unmatched-pattern
       - name: Dead Code Check (JS)
         run: |
-          npx eslint "assets/js/**/*.js" --ext .js --report-unused-disable-directives --no-error-on-unmatched-pattern
+          npx eslint "assets/js/**/*.js" --report-unused-disable-directives --no-error-on-unmatched-pattern
