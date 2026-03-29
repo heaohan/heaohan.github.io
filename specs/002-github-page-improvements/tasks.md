@@ -26,16 +26,17 @@
 ## Phase 5: User Story 3 - Track Applied Improvements (P3)
 - [X] T012 [P] [US3] Implement and maintain a tracking system for suggestions (status, date, rationale) in specs/002-github-page-improvements/contracts/improvement-suggestion.md and specs/002-github-page-improvements/data-model.md; document applied improvements and their impact in README.md or a dedicated changelog; regularly review and update improvement status.
 
+
 # Validation and Impact Tracking for Improvements (Constitution Compliance)
-- [ ] T013 [P] For each improvement suggestion, add a manual or automated validation step (e.g., test, audit, or review) to confirm the improvement is correctly applied. Document results in suggestions.yaml and changelog.
-- [ ] T014 [P] After applying each improvement, update the changelog with observed impact and user feedback (e.g., performance metrics, accessibility audit results, or user survey outcomes).
+- [ ] T013 [P] For each improvement suggestion, add a manual or automated validation step (e.g., test, audit, or review) to confirm the improvement is correctly applied. Document results in suggestions.yaml and changelog. (FR-004, SC-001, Constitution: Testing Standards)
+- [ ] T014 [P] After applying each improvement, update the changelog with observed impact and user feedback (e.g., performance metrics, accessibility audit results, or user survey outcomes). (FR-005, SC-002, SC-003, Constitution: Performance, User Experience Consistency)
 
 
-## Final Phase: Polish & Cross-Cutting Concerns
-- [ ] T015 [P] Review accessibility, performance, and SEO improvements across the site (assets/, _includes/, _layouts_, _config.yml)
-- [ ] T016 [P] Add or update automated checks (HTMLProofer, Lighthouse, pa11y) in CI or local scripts
-- [ ] T017 Update documentation and quickstart as needed in specs/002-github-page-improvements/quickstart.md
-- [ ] T018 [P] Add or update linting, formatting, and dead code removal scripts/checks for Jekyll, CSS, and JS assets (code quality, constitution compliance)
+-## Final Phase: Polish & Cross-Cutting Concerns
+- [ ] T015 [P] Review accessibility, performance, and SEO improvements across the site (assets/, _includes_, _layouts_, _config.yml). (SC-004, Constitution: User Experience Consistency, Performance Requirements)
+- [ ] T016 [P] Add or update automated checks (HTMLProofer, Lighthouse, pa11y) in CI or local scripts. (SC-004, Constitution: Testing Standards, Performance Requirements)
+- [ ] T017 Update documentation and quickstart as needed in specs/002-github-page-improvements/quickstart.md. (FR-005, Constitution: Development Workflow)
+- [ ] T018 [P] Add or update linting, formatting, and dead code removal scripts/checks for Jekyll, CSS, and JS assets (code quality, constitution compliance). (Constitution: Code Quality)
 
 ---
 

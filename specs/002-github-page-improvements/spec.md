@@ -62,11 +62,12 @@ A site maintainer wants to track which suggested improvements have been applied 
 
 ### Functional Requirements
 
-- **FR-001**: System MUST identify and summarize best practices from popular GitHub Pages implementations.
-- **FR-002**: System MUST compare this repository to those implementations and highlight differences.
-- **FR-003**: System MUST generate actionable, prioritized improvement suggestions tailored to this repo.
-- **FR-004**: System MUST provide rationale and references for each suggestion.
-- **FR-005**: System MUST allow maintainers to track which suggestions have been applied and their outcomes.
+
+- **FR-001**: System MUST identify and summarize best practices from popular GitHub Pages implementations. (Constitution: Code Quality, Performance)
+- **FR-002**: System MUST compare this repository to those implementations and highlight differences. (Constitution: Code Quality)
+- **FR-003**: System MUST generate actionable, prioritized improvement suggestions tailored to this repo, with each suggestion including a clear rationale and measurable benefit. (Constitution: Code Quality, User Experience Consistency)
+- **FR-004**: System MUST provide rationale and references for each suggestion, and suggestions must be validated by a manual or automated check. (Constitution: Testing Standards)
+- **FR-005**: System MUST allow maintainers to track which suggestions have been applied and their outcomes, including user feedback and observed impact. (Constitution: Performance, User Experience Consistency)
 
 ### Key Entities
 
@@ -76,12 +77,13 @@ A site maintainer wants to track which suggested improvements have been applied 
 
 ## Success Criteria *(mandatory)*
 
+
 ### Measurable Outcomes
 
-- **SC-001**: At least 5 actionable improvement suggestions are generated, each with clear rationale and references.
-- **SC-002**: Maintainers can review and track the status of all suggestions in a single dashboard or changelog.
-- **SC-003**: 80% of reviewed suggestions are considered relevant and valuable by maintainers.
-- **SC-004**: User satisfaction with the improvement process increases, as measured by feedback or survey.
+- **SC-001**: At least 5 actionable improvement suggestions are generated, each with clear rationale, references, and a validation step (manual or automated). (Mapped to T009, T010, T013)
+- **SC-002**: Maintainers can review and track the status of all suggestions in a single dashboard or changelog, with user feedback and observed impact recorded. (Mapped to T012, T014)
+- **SC-003**: 80% of reviewed suggestions are considered relevant and valuable by maintainers, as measured by a feedback form or survey. (Mapped to T014)
+- **SC-004**: User satisfaction with the improvement process increases, as measured by feedback or survey, and performance and accessibility audits show no regressions. (Mapped to T015, T016)
 
 ## Assumptions
 
@@ -90,3 +92,11 @@ A site maintainer wants to track which suggested improvements have been applied 
 - Not all best practices will be applicable to every site; maintainers will use judgment.
 - The system will not automate implementation, only provide suggestions and tracking.
 - Existing site content and structure will be preserved unless improvements are explicitly accepted.
+
+
+## Constitution Principle Mapping
+
+- **Code Quality**: All suggestions and changes must follow clear, consistent style guides, and be reviewed before merging. Linting, formatting, and dead code removal are required. (See T018)
+- **Testing Standards**: Each improvement suggestion must include a validation step (manual or automated). Automated tests are required for core logic; manual and accessibility testing for UI. (See T013, T016)
+- **User Experience Consistency**: Suggestions must improve or maintain consistent, accessible, and clear user interfaces. (See T015)
+- **Performance Requirements**: All improvements must meet defined performance targets (e.g., Lighthouse score >90, fast page loads, no regressions). (See T015, T016)

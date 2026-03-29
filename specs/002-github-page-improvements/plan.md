@@ -28,15 +28,15 @@ This feature aims to analyze popular GitHub Pages implementations, extract best 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
 **Gates:**
-- Code must follow clear, consistent style guides; linting/formatting required; remove dead code and unused dependencies.
-- All features must include automated or manual tests. For static JS in Jekyll, minimal automated JS test is required for core logic; manual and accessibility testing is sufficient for UI.
-- User interfaces and interactions must be consistent, accessible, and reviewed for clarity and design pattern adherence.
-- All features must meet defined performance targets (fast page loads, optimized resources, no regressions).
+- Code must follow clear, consistent style guides; linting/formatting required; remove dead code and unused dependencies. (Mapped to T018)
+- All features must include automated or manual tests. For static JS in Jekyll, minimal automated JS test is required for core logic; manual and accessibility testing is sufficient for UI. (Mapped to T013, T016)
+- User interfaces and interactions must be consistent, accessible, and reviewed for clarity and design pattern adherence. (Mapped to T015)
+- All features must meet defined performance targets (fast page loads, optimized resources, no regressions). (Mapped to T015, T016)
 - All code must be open source, compatible with Beautiful Jekyll, and follow security best practices.
 - All changes require code review and must pass CI before merging; documentation must be updated for user-facing/architectural changes.
 
 **Status:**
-- No violations detected at this stage. All requirements are compatible with the repo's constitution and workflow.
+- No violations detected at this stage. All requirements are compatible with the repo's constitution and workflow. All measurable criteria and mapping to tasks are now explicit.
 
 ## Project Structure
 
@@ -51,8 +51,6 @@ specs/[###-feature]/
 ├── contracts/           # Phase 1 output (/speckit.plan command)
 └── tasks.md             # Phase 2 output (/speckit.tasks command - NOT created by /speckit.plan)
 ```
-
-ios/ or android/
 
 ### Source Code (repository root)
 
@@ -78,6 +76,15 @@ Repository Root
 ```
 
 **Structure Decision**: This is a static Jekyll site using the Beautiful Jekyll theme. All improvements will be made within the existing Jekyll structure, primarily in `_config.yml`, `_includes/`, `_layouts/`, `assets/`, and content Markdown files. No backend or dynamic code is present or required.
+
+## Constitution Principle Mapping Table
+
+| Principle                | How Addressed in Plan/Tasks                | Task(s)         |
+|--------------------------|--------------------------------------------|-----------------|
+| Code Quality             | Linting, formatting, dead code removal     | T018            |
+| Testing Standards        | Manual/automated validation for suggestions| T013, T016      |
+| User Experience Consistency | Accessibility, UI review, feedback      | T015            |
+| Performance Requirements | Performance audits, Lighthouse, no regressions | T015, T016 |
 
 ## Complexity Tracking
 
