@@ -14,3 +14,6 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
   
 gemspec
 
+# Automated HTML validation for CI
+gem "html-proofer", group: :test
+

@@ -1,0 +1,31 @@
+name: Lint and Dead Code Check
+on:
+  push:
+    paths:
+      - 'assets/css/**'
+      - 'assets/js/**'
+      - '.github/workflows/lint.yml'
+  pull_request:
+    paths:
+      - 'assets/css/**'
+      - 'assets/js/**'
+      - '.github/workflows/lint.yml'
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install stylelint and eslint
+        run: |
+          npm install --no-save stylelint stylelint-config-standard eslint eslint-config-standard eslint-plugin-import eslint-plugin-n
+      - name: Lint CSS
+        run: npx stylelint "assets/css/**/*.css"
+      - name: Lint JS
+        run: npx eslint "assets/js/**/*.js" --ext .js --no-error-on-unmatched-pattern
+      - name: Dead Code Check (JS)
+        run: |
+          npx eslint "assets/js/**/*.js" --ext .js --report-unused-disable-directives --no-error-on-unmatched-pattern

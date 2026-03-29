@@ -1,0 +1,113 @@
+# Improvement Suggestions Tracking
+
+This file tracks the status of each improvement suggestion for the Jekyll GitHub Pages site, following the contract in contracts/improvement-suggestion.md.
+
+# Status Transition Criteria
+# - proposed → applied: Improvement is implemented and validated (manual/automated test, audit, or review completed; results documented below).
+# - proposed → rejected: Improvement is reviewed and determined not applicable or beneficial; rationale documented below.
+# - applied → (changelog): Impact and feedback are recorded after a reasonable observation period (e.g., performance metrics, accessibility audit, or user survey).
+
+## Suggestions
+
+- id: 001
+  title: "Optimize images for faster load times"
+  description: "Compress and resize images in assets/img/; add lazy loading for images and iframes."
+  rationale: "Large, unoptimized images slow down page loads and hurt performance scores. Lazy loading improves perceived speed and user experience."
+  priority: P1
+  status: proposed
+  reference: "https://developers.google.com/web/tools/lighthouse"
+  dateSuggested: 2026-03-29
+
+- id: 002
+  title: "Automate CSS/JS minification"
+  description: "Use Jekyll plugins or build tools to minify assets automatically."
+  rationale: "Minified assets reduce bandwidth and improve load times, especially on mobile."
+  priority: P1
+  status: proposed
+  reference: "https://github.com/mmistakes/minimal-mistakes"
+  dateSuggested: 2026-03-29
+
+- id: 003
+  title: "Enhance SEO with meta tags and sitemap"
+  description: "Add Open Graph/Twitter meta tags, improve sitemap.xml, and review robots.txt."
+  rationale: "Rich meta tags and sitemaps improve discoverability and sharing on social media and search engines."
+  priority: P1
+  status: proposed
+  reference: "https://jekyllrb.com/docs/seo/"
+  dateSuggested: 2026-03-29
+
+- id: 004
+  title: "Improve accessibility"
+  description: "Add ARIA labels, skip links, and audit color contrast and keyboard navigation."
+  rationale: "Accessibility improvements ensure the site is usable by all visitors, including those using assistive technologies."
+  priority: P1
+  status: proposed
+  reference: "https://pa11y.org/"
+  dateSuggested: 2026-03-29
+
+- id: 005
+  title: "Add breadcrumbs for navigation"
+  description: "Improve navigation for deep content with breadcrumbs (Minimal Mistakes pattern)."
+  rationale: "Breadcrumbs help users understand their location and improve navigation, especially on content-rich sites."
+  priority: P2
+  status: proposed
+  reference: "https://github.com/mmistakes/minimal-mistakes"
+  dateSuggested: 2026-03-29
+
+- id: 006
+  title: "Add changelog and contribution guidelines"
+  description: "Create a CHANGELOG.md and CONTRIBUTING.md for better documentation and collaboration."
+  rationale: "Clear documentation and change tracking help maintainers and contributors understand project history and standards."
+  priority: P2
+  status: proposed
+  reference: "https://deanattali.com/beautiful-jekyll/"
+  dateSuggested: 2026-03-29
+
+- id: 007
+  title: "Add automated checks to CI"
+  description: "Integrate HTMLProofer, Lighthouse, and pa11y into CI for quality assurance."
+  rationale: "Automated checks catch issues early and maintain high standards for accessibility, performance, and correctness."
+  priority: P1
+  status: proposed
+  reference: "https://github.com/gjtorikian/html-proofer"
+  dateSuggested: 2026-03-29
+
+- id: 008
+  title: "Add templates for new content"
+  description: "Provide Markdown templates for posts/pages to streamline content creation."
+  rationale: "Templates reduce friction for new content and ensure consistency across posts and pages."
+  priority: P3
+  status: proposed
+  reference: "https://github.com/academicpages/academicpages.github.io"
+  dateSuggested: 2026-03-29
+
+- id: 009
+  title: "Add RSS/email subscription"
+  description: "Enable RSS feed and consider email subscription for blog updates."
+  rationale: "RSS and email subscriptions help users stay updated and increase engagement."
+  priority: P3
+  status: proposed
+  reference: "https://deanattali.com/beautiful-jekyll/"
+  dateSuggested: 2026-03-29
+
+- id: 010
+  title: "Highlight featured posts"
+  description: "Add a section for featured or recent posts on the homepage."
+  rationale: "Featuring key posts increases visibility for important or popular content."
+  priority: P3
+  status: proposed
+  reference: "https://github.com/mmistakes/minimal-mistakes"
+  dateSuggested: 2026-03-29
+
+- id: 011
+  title: "Consider multilingual support"
+  description: "If relevant, add support for multiple languages."
+  rationale: "Multilingual support broadens the audience and improves accessibility for non-English speakers."
+  priority: P3
+  status: proposed
+  reference: "https://github.com/mmistakes/minimal-mistakes"
+  dateSuggested: 2026-03-29
+
+## Changelog
+
+# Add changelog entries here as improvements are applied.

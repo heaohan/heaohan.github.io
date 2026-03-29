@@ -1,3 +1,10 @@
+
+## Improvement Tracking
+
+All improvement suggestions, their status, and changelog entries are tracked in `specs/002-github-page-improvements/suggestions.yaml`.
+
+See also: `specs/002-github-page-improvements/quickstart.md` for a guide to applying and tracking improvements.
+
 ## Unreleased version
 
 ### New Features Applied (v6.1.0 - November 2025)
