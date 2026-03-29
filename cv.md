@@ -116,4 +116,4 @@ Please feel free to Download my CV [here](/files/cv_complex.pdf)!
 ### Agile Methodologies
 - Certified in Agile practices, including PMI-ACP preparation and Kanban.
 
-For a detailed overview of my learning journey, visit the [Continuous Learning](learning.md) page.
+For a detailed overview of my learning journey, visit the [Continuous Learning](/learning/) page.
