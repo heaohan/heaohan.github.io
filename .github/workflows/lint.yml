@@ -4,11 +4,17 @@ on:
     paths:
       - 'assets/css/**'
       - 'assets/js/**'
+      - 'eslint.config.js'
+      - '.stylelintrc.json'
+      - '.stylelintignore'
       - '.github/workflows/lint.yml'
   pull_request:
     paths:
       - 'assets/css/**'
       - 'assets/js/**'
+      - 'eslint.config.js'
+      - '.stylelintrc.json'
+      - '.stylelintignore'
       - '.github/workflows/lint.yml'
 jobs:
   lint:

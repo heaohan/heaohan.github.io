@@ -7,19 +7,24 @@
   background-color: #f2f3f3;
 }
 
-/*
+.staticman-comments form p {
+  margin-bottom: 2.5px;
 }
 
 .staticman-comments form br {
   display: none;
 }
 
-.staticman-comments label, .staticman-comments input, .staticman-comments button, .staticman-comments textarea {
-  vertical-align: baseline;
+.staticman-comments label,
+.staticman-comments input,
+.staticman-comments button,
+.staticman-comments textarea {
   vertical-align: middle;
 }
 
-.staticman-comments input, .staticman-comments button, .staticman-comments textarea {
+.staticman-comments input,
+.staticman-comments button,
+.staticman-comments textarea {
   box-sizing: border-box;
 }
 
@@ -34,18 +39,15 @@
   font-size: 0.75em;
 }
 
-.staticman-comments label input, .staticman-comments label textarea {
-  display: block;
-}
-
-.staticman-comments input, .staticman-comments textarea {
+.staticman-comments input,
+.staticman-comments textarea {
   display: inline-block;
   width: 100%;
   padding: 0.25em;
   margin-bottom: 0.5em;
   color: #494e52;
   background-color: #fff;
-  border: #f2f3f3;
+  border: 1px solid #f2f3f3;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgb(0 0 0 / 12.5%);
 }
@@ -58,7 +60,9 @@
   width: 90px;
 }
 
-.staticman-comments input[type="button"], .staticman-comments input[type="reset"], .staticman-comments input[type="submit"] {
+.staticman-comments input[type="button"],
+.staticman-comments input[type="reset"],
+.staticman-comments input[type="submit"] {
   width: auto;
   height: auto;
   cursor: pointer;
@@ -76,6 +80,11 @@
   display: none;
 }
 
+.staticman-comments label input,
+.staticman-comments label textarea {
+  display: block;
+}
+
 .staticman-comments .form {
   position: relative;
 }
@@ -86,11 +95,12 @@
 .staticman-comments input:focus, .staticman-comments textarea:focus {
   border-color: #7a8288;
   outline: 0;
-  outline: thin dotted \9;
   box-shadow: inset 0 1px 3px rgb(73 78 82 / 6%), 0 0 5px rgb(122 130 136 / 70%);
 }
 
-.staticman-comments input[type="file"]:focus, .staticman-comments input[type="radio"]:focus, .staticman-comments input[type="checkbox"]:focus:focus {
+.staticman-comments input[type="file"]:focus,
+.staticman-comments input[type="radio"]:focus,
+.staticman-comments input[type="checkbox"]:focus {
   box-shadow: none;
 }
 
