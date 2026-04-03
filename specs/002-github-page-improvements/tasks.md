@@ -32,7 +32,7 @@
 - [ ] T014 [P] After applying each improvement, update the changelog with observed impact and user feedback (e.g., performance metrics, accessibility audit results, or user survey outcomes). (FR-005, SC-002, SC-003, Constitution: Performance, User Experience Consistency)
 
 
--## Final Phase: Polish & Cross-Cutting Concerns
+## Final Phase: Polish & Cross-Cutting Concerns
 - [ ] T015 [P] Review accessibility, performance, and SEO improvements across the site (assets/, _includes_, _layouts_, _config.yml). (SC-004, Constitution: User Experience Consistency, Performance Requirements)
 - [ ] T016 [P] Add or update automated checks (HTMLProofer, Lighthouse, pa11y) in CI or local scripts. (SC-004, Constitution: Testing Standards, Performance Requirements)
 - [ ] T017 Update documentation and quickstart as needed in specs/002-github-page-improvements/quickstart.md. (FR-005, Constitution: Development Workflow)
