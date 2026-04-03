@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What I'm Doing Now
-subtitle: Updated December 2025
+subtitle: Updated March 2026
 ---
 
 This is a [now page](https://nownownow.com/about), inspired by Derek Sivers, showing what I'm currently focused on.
@@ -25,7 +25,7 @@ At Seagate Singapore, I'm currently:
 - *Head First Networking* - Fundamentals of Networking Hardware
 
 **Recent Events & Completions:**
-- Attended HackOMania 2026 Pre-Event at NETS: Learned about Singapore's payment backbone, ClickHouse agent demo, and Google's ADK for multi-agent systems ([blog post](./_posts/2026-03-01-hackomania-pre-event-experiences.md))
+- Attended HackOMania 2026 Pre-Event at NETS: Learned about Singapore's payment backbone, ClickHouse agent demo, and Google's ADK for multi-agent systems ([blog post](/2026-03-01-hackomania-pre-event-experiences/))
 - Microsoft Build your code-first agent with Azure AI Foundry workshop
 - Powering AI with MCP Workshop
 - Various courses on advanced NLP and deep learning optimization

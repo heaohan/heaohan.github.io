@@ -2,44 +2,14 @@
 
 /* 1. Improve link color contrast for better readability */
 :root {
-  /* Enhanced contrast for links - ensures 4.5:1 ratio on white background */
   --link-col-accessible: #0056b3;
   --hover-col-accessible: #003d82;
 }
 
-/* Override link colors for better contrast */
-a:not(.btn):not(.navbar-brand):not(.nav-link):not(.dropdown-item) {
-  color: var(--link-col-accessible, #0056b3);
-}
-
-a:not(.btn):not(.navbar-brand):not(.nav-link):not(.dropdown-item):hover,
-a:not(.btn):not(.navbar-brand):not(.nav-link):not(.dropdown-item):focus {
-  color: var(--hover-col-accessible, #003d82);
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 2px;
-}
-
-/* 2. Increase touch target sizes for mobile (minimum 48x48px) */
-.navbar-toggler {
-  min-width: 48px;
-  min-height: 48px;
-  padding: 12px;
-}
-
-/* Touch target size for nav links - only enforce minimum height */
-.nav-link {
-  min-height: 48px;
-  display: flex;
-  align-items: center;
-}
-
-/* Only adjust padding on mobile for better touch targets */
-@media (max-width: 1199.98px) {
-  .navbar-custom .navbar-nav .nav-link {
-    padding-top: 16px !important;
-    padding-bottom: 16px !important;
-  }
+/* General link styles first */
+footer a {
+  color: #0056b3;
+  font-weight: 500;
 }
 
 .footer-links a {
@@ -51,11 +21,11 @@ a:not(.btn):not(.navbar-brand):not(.nav-link):not(.dropdown-item):focus {
   padding: 4px;
 }
 
-.list-inline-item {
-  margin: 8px !important; /* Add spacing between touch targets */
+/* Override link colors for better contrast */
+a:not(.btn, .navbar-brand, .nav-link, .dropdown-item) {
+  color: var(--link-col-accessible, #0056b3);
 }
 
-/* 3. Improve focus indicators for keyboard navigation */
 a:focus,
 button:focus,
 input:focus,
@@ -63,10 +33,49 @@ textarea:focus,
 select:focus {
   outline: 3px solid #0056b3;
   outline-offset: 2px;
-  box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.2);
+  box-shadow: 0 0 0 3px rgb(0 86 179 / 20%);
 }
 
-/* Skip to main content link for keyboard users */
+footer a:hover,
+footer a:focus {
+  color: #003d82;
+  text-decoration: underline;
+}
+
+a:not(.btn, .navbar-brand, .nav-link, .dropdown-item):hover,
+a:not(.btn, .navbar-brand, .nav-link, .dropdown-item):focus {
+  color: var(--hover-col-accessible, #003d82);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+/* 2. Increase touch target sizes for mobile */
+.navbar-toggler {
+  min-width: 48px;
+  min-height: 48px;
+  padding: 12px;
+}
+
+.nav-link {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+@media (width <= 1199.98px) {
+  .navbar-custom .navbar-nav .nav-link {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    font-size: 1.1rem;
+  }
+}
+
+.list-inline-item {
+  margin: 8px !important;
+}
+
+/* Skip to main content link */
 .skip-to-main {
   position: absolute;
   left: -9999px;
@@ -84,15 +93,13 @@ select:focus {
   top: 10px;
 }
 
-/* 4. Ensure sufficient spacing between interactive elements */
-/* Only apply margin-left on desktop (horizontal nav) */
-@media (min-width: 1200px) {
+/* 4. Spacing between interactive elements */
+@media (width >= 1200px) {
   .navbar-nav .nav-item + .nav-item {
     margin-left: 8px;
   }
 }
 
-/* Fix: Ensure navbar items stay above avatar */
 .navbar-custom .navbar-collapse {
   position: relative;
   z-index: 10;
@@ -102,13 +109,13 @@ select:focus {
   z-index: 1;
 }
 
-@media (max-width: 1199.98px) {
+@media (width <= 1199.98px) {
   .navbar-nav .nav-item {
     margin: 8px 0;
   }
 }
 
-/* 5. Improve button contrast and visibility */
+/* 5. Button contrast */
 .btn-primary {
   background-color: #0056b3;
   border-color: #0056b3;
@@ -121,23 +128,16 @@ select:focus {
   border-color: #003d82;
 }
 
-/* 6. Better visible focus for form elements */
+/* 6. Form focus */
 .form-control:focus {
   border-color: #0056b3;
-  box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
+  box-shadow: 0 0 0 0.2rem rgb(0 86 179 / 25%);
 }
 
-/* 7. Improve readability of navbar on mobile */
-@media (max-width: 1199.98px) {
-  .navbar-custom .navbar-nav .nav-link {
-    font-size: 1.1rem;
-  }
-}
-
-/* 8. Enhance dropdown contrast */
+/* 8. Dropdown contrast */
 .dropdown-menu {
   border: 2px solid #dee2e6;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
 
 .dropdown-item:focus,
@@ -146,7 +146,7 @@ select:focus {
   color: white;
 }
 
-/* 9. Improve code block contrast */
+/* 9. Code block contrast */
 pre,
 code {
   background-color: #f5f5f5;
@@ -158,32 +158,17 @@ code {
   padding: 2px 6px;
 }
 
-/* 10. Better visibility for selected text */
+/* 10. Selected text */
 ::selection {
   background-color: #0056b3;
   color: white;
 }
 
-::-moz-selection {
-  background-color: #0056b3;
-  color: white;
-}
+/* Removed ::-moz-selection to satisfy Stylelint */
 
-/* 11. Ensure proper contrast for footer links */
-footer a {
-  color: #0056b3;
-  font-weight: 500;
-}
-
-footer a:hover,
-footer a:focus {
-  color: #003d82;
-  text-decoration: underline;
-}
-
-/* 12. Improve visibility of social media icons */
+/* 12. Social media icons */
 .footer-links .fa-stack {
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 1px 2px rgb(0 0 0 / 10%));
   transition: transform 0.2s ease;
 }
 
@@ -192,7 +177,6 @@ footer a:focus {
   transform: scale(1.1);
 }
 
-/* Fix social share button icon visibility */
 #social-share-section .btn-social-icon {
   overflow: visible !important;
   display: inline-flex;
@@ -205,19 +189,14 @@ footer a:focus {
 
 #social-share-section .btn-social-icon .fab {
   position: relative !important;
-  left: auto !important;
-  top: auto !important;
-  bottom: auto !important;
   width: auto !important;
-  line-height: inherit !important;
   font-size: 1.6em !important;
   text-align: center;
-  border: none !important;
   display: block;
   color: #fff;
 }
 
-/* 13. Better spacing for readability */
+/* 13. Readability */
 p {
   line-height: 1.7;
   margin-bottom: 1.2em;
@@ -229,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
 }
 
-/* 14. Improve table accessibility */
+/* 14. Table accessibility */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -250,17 +229,16 @@ tr:nth-child(even) {
   background-color: #fafafa;
 }
 
-/* 15. Ensure images don't cause layout shift */
+/* 15. Images */
 img {
   height: auto;
   max-width: 100%;
 }
 
-/* Add aspect ratio boxes if needed */
 .img-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
 }
 
 .img-container img {
@@ -272,7 +250,7 @@ img {
   object-fit: cover;
 }
 
-/* 16. Improve search button visibility and size */
+/* 16. Search button */
 #nav-search-link {
   min-width: 48px;
   min-height: 48px;
@@ -281,19 +259,19 @@ img {
   justify-content: center;
 }
 
-/* 17. Better visual hierarchy */
+/* 17. Visual hierarchy */
 .post-heading h1 {
   font-size: 2.5rem;
   font-weight: 700;
 }
 
-@media (max-width: 767.98px) {
+@media (width <= 767.98px) {
   .post-heading h1 {
     font-size: 2rem;
   }
 }
 
-/* 18. Improve pagination contrast */
+/* 18. Pagination */
 .pagination .page-link {
   color: #0056b3;
   border: 2px solid #dee2e6;
@@ -317,24 +295,23 @@ img {
   border-color: #0056b3;
 }
 
-/* 19. Ensure proper heading hierarchy */
+/* 19. Heading hierarchy */
 .intro-header .page-heading h1,
 .intro-header .post-heading h1 {
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 4px rgb(0 0 0 / 50%);
 }
 
-/* 20. Improve blockquote visibility */
+/* 20. Blockquote */
 blockquote {
   border-left: 4px solid #0056b3;
-  padding-left: 1.5rem;
+  padding: 1rem 1.5rem;
   margin-left: 0;
   font-style: italic;
   color: #404040;
   background-color: #f9f9f9;
-  padding: 1rem 1.5rem;
 }
 
-/* Reduced motion support for users with vestibular disorders */
+/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -346,8 +323,8 @@ blockquote {
   }
 }
 
-/* High contrast mode adjustments */
-@media (prefers-contrast: high) {
+/* High contrast mode */
+@media (prefers-contrast: more) {
   a {
     text-decoration: underline;
   }
@@ -358,7 +335,7 @@ blockquote {
   }
 }
 
-/* Dark mode support (if implementing later) */
+/* Dark mode placeholder */
 @media (prefers-color-scheme: dark) {
-  /* Keep light mode for now, but structure is ready */
+  /* Keep light mode for now */
 }

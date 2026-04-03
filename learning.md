@@ -16,7 +16,7 @@ Here is an overview of my journey in continuous learning as a software engineer.
 - 📖 *Head First Networking* - Fundamentals of Networking Hardware
 
 **Recent Workshops & Events:**
-- ✅ HackOMania 2026 Pre-Event at NETS: Explored Singapore's payment infrastructure, ClickHouse agent demo, and Google's ADK session on multi-agent systems ([Read my experience](./_posts/2026-03-01-hackomania-pre-event-experiences.md))
+- ✅ HackOMania 2026 Pre-Event at NETS: Explored Singapore's payment infrastructure, ClickHouse agent demo, and Google's ADK session on multi-agent systems ([Read my experience](/2026-03-01-hackomania-pre-event-experiences/))
 - ✅ Microsoft Build your code-first agent with Azure AI Foundry
 - ✅ Powering AI with MCP Workshop
 
