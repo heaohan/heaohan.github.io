@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: Love and Sacrifice
+subtitle: Choosing Meaning
 ---
 
 Hi, my name is Aohan.  
