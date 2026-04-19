@@ -70,7 +70,7 @@ After years of building machine vision systems for manufacturing, I've settled o
 - **GitHub Actions** - CI/CD pipelines for automated testing and deployment
 
 ### Testing Frameworks
-- **C# NetFramework Unit Test** - Unit testing for vision algorithms
+- **MSTest** - Unit & Regression test for vision algorithms
 - **pytest (Python)** - Testing data processing and utilities
 - **Manual test sequences** - Hardware-in-the-loop validation
 
@@ -112,7 +112,7 @@ Test on actual production images:
 - Part variations
 - Different camera positions
 
-### 3. Implement in Production Language (C##)
+### 3. Implement in Production Language (C#)
 Once algorithm is proven
 
 ### 4. Create Automated Tests
